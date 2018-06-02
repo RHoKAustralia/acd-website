@@ -76,7 +76,7 @@ function block_homepage_slider() {
     // Scripts.
     wp_register_script(
         'block-homepage-slider-script', // Handle.
-        plugins_url('hello'.bloginfo('template_url').'/blocks/homepage-slider/block.js', __FILE__ ), // Block.js: We register the block here.
+        bloginfo('template_url').'/blocks/homepage-slider/block.js', // Block.js: We register the block here.
         array( 'wp-blocks', 'wp-element', 'wp-i18n' ) // Dependencies, defined above.
     );
 
