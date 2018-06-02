@@ -1810,8 +1810,8 @@ table.default thead {
     #nav {
         position: relative;
         height: 5em;
-        padding-top: 2em;
-        padding-bottom: 1em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
         margin: 0px auto;
         cursor: default;
         background: #9D2CAF;
