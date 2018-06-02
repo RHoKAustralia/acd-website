@@ -1523,7 +1523,7 @@ table.default thead {
 
 .highlight {
     position: relative;
-    border-radius: 0px 50px !important;
+    border-radius: 0px 50px;
 }
 
 .highlight a {
@@ -1534,6 +1534,7 @@ table.default thead {
 
 .highlight .image {
     margin: 0;
+    border-radius: 0px 50px;
 }
 
 .highlight header {
