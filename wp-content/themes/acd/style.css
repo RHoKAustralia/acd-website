@@ -1802,7 +1802,7 @@ table.default thead {
 
     #header span {
         font-weight: 200;
-        color: #727272;
+        color: #fffced; /* 727272; */
     }
 
     /* Nav */
