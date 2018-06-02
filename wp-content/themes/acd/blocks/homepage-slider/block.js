@@ -8,8 +8,8 @@
     var InspectorControls = wp.blocks.InspectorControls;
     var TextControl = wp.components.TextControl;
 
-    registerBlockType( 'organic/profile-block', { // The name of our block. Must be a string with prefix. Example: my-plugin/my-custom-block.
-        title: i18n.__( 'Profile' ), // The title of our block.
+    registerBlockType( 'acd/homepage-slider', { // The name of our block. Must be a string with prefix. Example: my-plugin/my-custom-block.
+        title: i18n.__( 'Homepage Slider' ), // The title of our block.
         description: i18n.__( 'A custom block for displaying personal profiles.' ), // The description of our block.
         icon: 'businessman', // Dashicon icon for our block. Custom icons can be added using inline SVGs.
         category: 'common', // The category of the block.
