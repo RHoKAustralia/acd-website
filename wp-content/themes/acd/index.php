@@ -155,14 +155,14 @@ License: pixelarity.com/license
     </div>
 
     <!-- Main Wrapper -->
-    <div id="main-wrapper">
+    <!--<div id="main-wrapper">
 
         <!-- Main  -->
-        <div id="main" class="container">
+        <!--<div id="main" class="container">
 
         </div>
 
-    </div>
+    </div> -->
 
     <!-- Footer Wrapper -->
     <div id="footer-wrapper">
