@@ -11,7 +11,7 @@ License: pixelarity.com/license
 -->
 <html>
 <head>
-    <title>Untitled</title>
+    <title>Association for Children with a Disability</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
