@@ -55,6 +55,6 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="index.php">A<span>ssociation</span> for C<span>hildren with a</span> D<span></span>isability</a></h1>
+        <h1><a href="index.php">A<span>ssociation for</span> C<span>hildren with a</span> D<span>isability</span></a></h1>
     </header>
 </div>
