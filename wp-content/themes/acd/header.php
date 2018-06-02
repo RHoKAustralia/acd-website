@@ -56,6 +56,6 @@
     <!-- Header -->
     <header id="header">
         <!--<h1><a href="index.php">A<span>ssociation for</span> C<span>hildren with a</span> D<span>isability</span></a></h1>-->
-        <img src="<?php echo get_option('acd_logo'); ?>" href="index.php">
+        <span class="image fit"><img src="<?php echo get_option('acd_logo'); ?>" href="index.php"></span>
     </header>
 </div>

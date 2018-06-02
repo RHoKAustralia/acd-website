@@ -1638,7 +1638,8 @@ table.default thead {
 
 #header-wrapper {
     position: relative;
-    background: #080808 url("../images/overlay.png") repeat;
+    background: #9D2CAF url("../images/overlay.png") repeat;
+    /* #080808 */
     top: 0;
 }
 
