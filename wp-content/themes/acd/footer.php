@@ -72,6 +72,13 @@
             </section>
         </div>
     </div>
+    <div class="row">
+        <div class="6u 12u(mobile)">
+            <section>
+                <p>ACD acknowledges Aboriginal and Torres Strait Islander peoples as First Australians and recognises their culture, history, diversity and their deep connection to the land. We recognise the distinct rights and perspectives of all Aboriginal and Torres Strait Islander people. We also acknowledge that ACD is on the land of the Kulin Nation and we pay our respects to their Elders past and present</p>
+            </section>
+        </div>
+    </div>
     <div id="copyright">
         &copy; ACD. All rights reserved.
     </div>
