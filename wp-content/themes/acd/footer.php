@@ -45,21 +45,23 @@
                     <div class="6u 12u(mobile)">
                         <ul class="style3">
                             <li class="icon fa-envelope">
-                                <a href="#" class="">information@untitled.tld</a>
+                                <a href="mailto:mail@acd.org.au" class="">mail@acd.org.au</a>
                             </li>
-                            <li class="icon fa-home">
-                                1234 Somewhere Road<br />
-                                Nashville, TN 00000-0000
+                            <li class="icon fa-envelope">
+                                <a href="mailto:acdsupport@acd.org.au" class="">acdsupport@acd.org.au</a>
                             </li>
                         </ul>
                     </div>
                     <div class="6u 12u(mobile)">
                         <ul class="style3">
                             <li class="icon fa-twitter">
-                                <a href="#">@untitled-corp</a>
+                                <a href="https://twitter.com/ACDinfo" target="_blank">@ACDinfo</a>
                             </li>
                             <li class="icon fa-phone">
-                                (800) 555-0000
+                                +61 3 9880 7000
+                            </li>
+                            <li class="icon fa-phone">
+                                1800 654 013 (rural callers)
                             </li>
                         </ul>
                     </div>
@@ -68,6 +70,6 @@
         </div>
     </div>
     <div id="copyright">
-        &copy; Untitled. All rights reserved.
+        &copy; ACD. All rights reserved.
     </div>
 </footer>
