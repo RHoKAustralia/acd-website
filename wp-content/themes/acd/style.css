@@ -1638,7 +1638,7 @@ table.default thead {
 
 #header-wrapper {
     position: relative;
-    background: #9D2CAF url("acd/images/overlay.png") repeat;
+    background: #9D2CAF url("images/overlay.png") repeat;
     /* #080808 */
     top: 0;
 }
@@ -1657,7 +1657,7 @@ table.default thead {
 #banner-wrapper {
     position: relative;
     width: 100%;
-    background: #9D2CAF url("acd/images/overlay.png") repeat; /* #212121 */
+    background: #9D2CAF url("images/overlay.png") repeat; /* #212121 */
 }
 
 #banner-wrapper:before {
@@ -2324,7 +2324,7 @@ table.default thead {
         top: 0;
         width: 275px;
         z-index: 10002;
-        background: #111 url("acd/images/overlay.png") repeat;
+        background: #111 url("images/overlay.png") repeat;
         box-shadow: inset -3px 0px 10px 0px rgba(0, 0, 0, 0.25);
     }
 
@@ -2428,7 +2428,7 @@ table.default thead {
         display: block;
         font-size: 0.65em;
         font-weight: 200;
-        color: #727272;
+        color: #fffced; /* #727272; */
         letter-spacing: 0;
     }
 
