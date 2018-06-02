@@ -44,19 +44,19 @@
                                 <a href="mailto:mail@acd.org.au" class="">mail@acd.org.au</a><br/>
                                 <a href="mailto:acdsupport@acd.org.au" class="">acdsupport@acd.org.au</a>
                             </li>
-                            <li class="icon fa-facebook">
-                                <a href="https://www.facebook.com/acdvic" target="_blank" class="">ACDvic Page</a>
+                            <li class="icon fa-phone">
+                                +61 3 9880 7000<br/>
+                                1800 654 013 (rural callers)
                             </li>
                         </ul>
                     </div>
                     <div class="6u 12u(mobile)">
                         <ul class="style3">
+                            <li class="icon fa-facebook">
+                                <a href="https://www.facebook.com/acdvic" target="_blank" class="">ACDvic Page</a>
+                            </li>
                             <li class="icon fa-twitter">
                                 <a href="https://twitter.com/ACDinfo" target="_blank">@ACDinfo</a>
-                            </li>
-                            <li class="icon fa-phone">
-                                +61 3 9880 7000<br/>
-                                1800 654 013 (rural callers)
                             </li>
                         </ul>
                     </div>
