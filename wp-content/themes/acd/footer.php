@@ -15,7 +15,7 @@
             </section>
         </div>
 
-        // Posts tagged in the 'Footer' category
+        <!-- Posts tagged in the 'Footer' category -->
         <div class="3u 12u(mobile)">
             <section>
                 <h2>Legal</h2>
