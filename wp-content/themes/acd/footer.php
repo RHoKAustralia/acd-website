@@ -2,6 +2,7 @@
     <div class="row">
         <div class="3u 12u(mobile)">
             <section>
+
                 <h2>Site Map</h2>
                 <ul class="style1">
                     <li class="first"><a href="#">Quis lacus praesent et aliquet</a></li>
@@ -13,16 +14,29 @@
                 </ul>
             </section>
         </div>
+
+        // Posts tagged in the 'Footer' category
         <div class="3u 12u(mobile)">
             <section>
-                <h2>&nbsp;</h2>
+                <h2>Legal</h2>
                 <ul class="style1">
-                    <li class="first"><a href="#">Copyright</a></li>
-                    <li><a href="#">Disclaimer</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms and Conditions</a></li>
-                    <li><a href="#">Feedback and Complaints</a></li>
-                    <li><a href="#">Contact Us</a></li>
+
+                    <?php
+
+                    $args = array( 'category_name' => 'Footer' );
+
+                    $footerposts = get_posts( $args );
+                    $i = 1;
+
+                    if(count($footerposts) === 0) { echo "Nothing to see here"; }
+
+                    foreach ( $footerposts as $post ) : setup_postdata( $post ); ?>
+                        <?php ( $i == 1 ? echo("<li class='first'>") : echo("<li>")); $i++ ?>
+
+                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+
+                    <?php endforeach; wp_reset_postdata(); ?>
+
                 </ul>
             </section>
         </div>
