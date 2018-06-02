@@ -51,7 +51,7 @@
                                 <a href="mailto:acdsupport@acd.org.au" class="">acdsupport@acd.org.au</a>
                             </li>
                             <li class="icon fa-facebook">
-                                <a href="https://www.facebook.com/acdvic" class="">ACDvic</a>
+                                <a href="https://www.facebook.com/acdvic" target="_blank" class="">ACDvic</a>
                             </li>
                         </ul>
                     </div>
