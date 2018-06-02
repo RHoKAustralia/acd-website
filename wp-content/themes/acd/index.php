@@ -22,12 +22,14 @@ License: pixelarity.com/license
 <div id="page-wrapper">
 
     <!-- Header Wrapper -->
-    <div id="header-wrapper">
-        <?php get_header(); ?>
-    </div>
+    <?php get_header(); ?>
+
+    <!--<div id="header-wrapper">
+
+    </div> -->
 
     <!-- Banner Wrapper -->
-    <div id="banner-wrapper">
+   <!-- <div id="banner-wrapper">
 
         <!-- Banner -->
        <!-- block -->
@@ -111,9 +113,9 @@ License: pixelarity.com/license
                     </section>
                 </div>
             </div>
-        </div> -->
+        </div>
 
-    </div>
+    </div> -->
 
     <!-- Featured Wrapper -->
     <div id="featured-wrapper">
