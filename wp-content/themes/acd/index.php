@@ -16,6 +16,7 @@ License: pixelarity.com/license
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
+    <?php wp_head(); ?>
 </head>
 <body class="homepage">
 <div id="page-wrapper">
