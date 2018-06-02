@@ -31,12 +31,12 @@ License: pixelarity.com/license
 
         <!-- Banner -->
        <!-- block -->
-       <div id="banner" class="container">
+      <!-- <div id="banner" class="container">
             <div class="row">
                 <div class="12u">
 
                     <!-- Slider -->
-                    <div id="slider">
+                  <!--  <div id="slider">
                         <div class="viewer">
                             <div class="reel">
                                 <div class="slide">
@@ -111,7 +111,7 @@ License: pixelarity.com/license
                     </section>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
