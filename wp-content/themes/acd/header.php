@@ -5,7 +5,7 @@
     <div class="container">
 
         <!-- Header -->
-        <div class="row">
+        <div class="row" style="background:#FFFFFF;">
             <div class="3u">&nbsp;</div>
             <div class="6u">
                 <span class="image fit"><img src="<?php echo get_option('acd_logo'); ?>" href="index.php"></span>
