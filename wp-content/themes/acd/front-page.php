@@ -43,7 +43,7 @@ License: pixelarity.com/license
                                         <span>Integer gravida nibh quis urna</span>
                                         <a class="link" href="#">Full story ...</a>
                                     </div>
-                                    <img src="images/slide01.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/images/slide01.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">
@@ -51,7 +51,7 @@ License: pixelarity.com/license
                                         <span>Aliquam feugiat lorem ipsum dolor</span>
                                         <a class="link" href="#">Full story ...</a>
                                     </div>
-                                    <img src="images/slide02.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/images/slide02.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">
@@ -59,7 +59,7 @@ License: pixelarity.com/license
                                         <span>Nulla volutpat dolor sed amet</span>
                                         <a class="link" href="#">Full story ...</a>
                                     </div>
-                                    <img src="images/slide03.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/images/slide03.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ License: pixelarity.com/license
                 <div class="4u 12u(mobile)">
                     <section class="highlight">
                         <a href="#">
-                            <span class="image fit"><img src="images/pic02.jpg" alt=""></span>
+                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic02.jpg" alt=""></span>
                             <header>
                                 <h2>Magna sed lorem</h2>
                                 <p>Amet nulla consequat</p>
@@ -89,7 +89,7 @@ License: pixelarity.com/license
                 <div class="4u 12u(mobile)">
                     <section class="highlight alt">
                         <a href="#">
-                            <span class="image fit"><img src="images/pic03.jpg" alt=""></span>
+                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic03.jpg" alt=""></span>
                             <header>
                                 <h2>Magna sed lorem</h2>
                                 <p>Amet nulla consequat</p>
@@ -100,7 +100,7 @@ License: pixelarity.com/license
                 <div class="4u 12u(mobile)">
                     <section class="highlight alt2">
                         <a href="#">
-                            <span class="image fit"><img src="images/pic04.jpg" alt=""></span>
+                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic04.jpg" alt=""></span>
                             <header>
                                 <h2>Magna sed lorem</h2>
                                 <p>Amet nulla consequat</p>
@@ -135,7 +135,7 @@ License: pixelarity.com/license
                 </div>
                 <div id="box1" class="3u 12u(mobile)">
                     <section>
-                        <a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+                        <a href="#" class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt=""></a>
                         <h3>Ipsum et consequat</h3>
                         <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
                         <footer>
@@ -145,7 +145,7 @@ License: pixelarity.com/license
                 </div>
                 <div class="3u 12u(mobile)">
                     <section>
-                        <a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+                        <a href="#" class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt=""></a>
                         <h3>Elementum adipiscing</h3>
                         <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
                         <footer>
@@ -155,7 +155,7 @@ License: pixelarity.com/license
                 </div>
                 <div class="3u 12u(mobile)">
                     <section>
-                        <a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+                        <a href="#" class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt=""></a>
                         <h3>Mauris lorem ipsum</h3>
                         <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
                         <footer>
@@ -179,7 +179,7 @@ License: pixelarity.com/license
                     <article id="content">
                         <h2>Magna sed lorem nullam dignissim</h2>
                         <p class="subtitle">Lorem ipsum nulla veroeros feugiat consequat lorem ipsum dolor nullam</p>
-                        <a href="#" class="image left"><img src="images/pic08.jpg" alt=""></a>
+                        <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt=""></a>
                         <p>Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis congue faucibus erat, accumsan aliquet velit aliquet nec. Nullam mattis tellus in urna imperdiet mattis. Aliquam non eros ligula, vitae bibendum mauris. Nam suscipit nisl non leo lobortis molestie. Quisque urna velit, vestibugravida varius ullamcorper in, fermentum ut purus. In hac habitasse platea dictumst. Integer quis justo in dui sollicitudin elementum. Sed ac elit erat. Vivamus pellentesque libero purus, at posuere magna. Etiam at lacus molestie risus volutpat laoreet veroeros lorem ipsum.</p>
                         <footer>
                             <a href="#" class="button icon fa-arrow-circle-right">Learn More</a>
@@ -192,12 +192,12 @@ License: pixelarity.com/license
                     <section>
                         <ul class="style2">
                             <li class="first">
-                                <a href="#" class="image left"><img src="images/pic09.jpg" alt=""></a>
+                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt=""></a>
                                 <h3><a href="#">Ipsum et consequat</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                             <li>
-                                <a href="#" class="image left"><img src="images/pic10.jpg" alt=""></a>
+                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt=""></a>
                                 <h3><a href="#">Ipsum et consequat</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
@@ -208,12 +208,12 @@ License: pixelarity.com/license
                     <section>
                         <ul class="style2">
                             <li class="first">
-                                <a href="#" class="image left"><img src="images/pic11.jpg" alt=""></a>
+                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic11.jpg" alt=""></a>
                                 <h3><a href="#">Ipsum et consequat</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                             <li>
-                                <a href="#" class="image left"><img src="images/pic12.jpg" alt=""></a>
+                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic12.jpg" alt=""></a>
                                 <h3><a href="#">Ipsum et consequat</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
