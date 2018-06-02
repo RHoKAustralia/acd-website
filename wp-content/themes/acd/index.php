@@ -227,14 +227,6 @@ License: pixelarity.com/license
 
     </div>
 
-    <!-- Footer Wrapper -->
-    <div id="footer-wrapper">
-
-        <!-- Footer -->
-        <?php get_footer(); ?>
-
-    </div>
-
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
     <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -262,6 +254,14 @@ License: pixelarity.com/license
             </div><!--end navigation-->
             <?php else : ?>
             <?php endif; ?>
+
+    <!-- Footer Wrapper -->
+    <div id="footer-wrapper">
+
+        <!-- Footer -->
+        <?php get_footer(); ?>
+
+    </div>
 
 </div>
 
