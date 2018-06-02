@@ -1540,7 +1540,7 @@ table.default thead {
     -webkit-transition: background-color 0.25s ease-in-out;
     -ms-transition: background-color 0.25s ease-in-out;
     transition: background-color 0.25s ease-in-out;
-    background: #0087cd url("../images/bg01.png") no-repeat right top;
+    background: #080808 url("images/bg01.png") no-repeat right top; /* #0087cd */
     background-size: 100% 100%;
     padding: 2.25em 100px 2.25em 2em;
     position: relative;
@@ -1638,7 +1638,7 @@ table.default thead {
 
 #header-wrapper {
     position: relative;
-    background: #9D2CAF url("../images/overlay.png") repeat;
+    background: #9D2CAF url("images/overlay.png") repeat;
     /* #080808 */
     top: 0;
 }
