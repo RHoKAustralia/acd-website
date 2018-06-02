@@ -14,8 +14,8 @@ License: pixelarity.com/license
     <title>Untitled</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="style.css" />
+    <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
 </head>
 <body class="homepage">
 <div id="page-wrapper">
@@ -236,14 +236,14 @@ License: pixelarity.com/license
 </div>
 
 <!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/jquery.slidertron.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/skel-viewport.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.dropotron.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.slidertron.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/js/skel.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/js/skel-viewport.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
 
 </body>
 </html>
