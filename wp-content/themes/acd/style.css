@@ -1836,20 +1836,20 @@ table.default thead {
         padding: 0 1.25em 0 1.25em;
         text-decoration: none;
         font-size: 1.05em;
-        color: #727272;
+        color: #FFFFFF; /*#727272;*/
         outline: 0;
     }
 
     #nav li:hover a {
-        background: #282828;
-        background: rgba(42, 42, 42, 0.94);
-        color: #bbb;
+        background: #e6e3d5; /* #282828; */
+        background: rgba(230, 227, 213, 0.94); /*rgba(42, 42, 42, 0.94); */
+        color: #000;
     }
 
     #nav li:active a, #nav li.active a {
-        background: #282828;
-        background: rgba(42, 42, 42, 0.94);
-        color: #fff;
+        background: #e6e3d5; /* #282828; */
+        background: rgba(230, 227, 213, 0.94); /*rgba(42, 42, 42, 0.94); */
+        color: #000;
     }
 
     #nav li .current_page_item a {
