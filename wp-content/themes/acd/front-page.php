@@ -16,6 +16,7 @@ License: pixelarity.com/license
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
+    <?php wp_head(); ?>
 </head>
 <body class="homepage">
 <div id="page-wrapper">
@@ -177,12 +178,12 @@ License: pixelarity.com/license
             <div class="row">
                 <div class="12u">
                     <article id="content">
-                        <h2>Magna sed lorem nullam dignissim</h2>
+                        <h2>Workshops and Events</h2>
                         <p class="subtitle">Lorem ipsum nulla veroeros feugiat consequat lorem ipsum dolor nullam</p>
                         <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt=""></a>
                         <p>Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis congue faucibus erat, accumsan aliquet velit aliquet nec. Nullam mattis tellus in urna imperdiet mattis. Aliquam non eros ligula, vitae bibendum mauris. Nam suscipit nisl non leo lobortis molestie. Quisque urna velit, vestibugravida varius ullamcorper in, fermentum ut purus. In hac habitasse platea dictumst. Integer quis justo in dui sollicitudin elementum. Sed ac elit erat. Vivamus pellentesque libero purus, at posuere magna. Etiam at lacus molestie risus volutpat laoreet veroeros lorem ipsum.</p>
                         <footer>
-                            <a href="#" class="button icon fa-arrow-circle-right">Learn More</a>
+                            <a href="#" class="button icon fa-arrow-circle-right">Eventbrite Link</a>
                         </footer>
                     </article>
                 </div>
@@ -193,12 +194,12 @@ License: pixelarity.com/license
                         <ul class="style2">
                             <li class="first">
                                 <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt=""></a>
-                                <h3><a href="#">Ipsum et consequat</a></h3>
+                                <h3><a href="#">Featured Event 1</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                             <li>
                                 <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt=""></a>
-                                <h3><a href="#">Ipsum et consequat</a></h3>
+                                <h3><a href="#">Featured Event 2</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                         </ul>
@@ -209,12 +210,12 @@ License: pixelarity.com/license
                         <ul class="style2">
                             <li class="first">
                                 <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic11.jpg" alt=""></a>
-                                <h3><a href="#">Ipsum et consequat</a></h3>
+                                <h3><a href="#">Featured Event 3</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                             <li>
                                 <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic12.jpg" alt=""></a>
-                                <h3><a href="#">Ipsum et consequat</a></h3>
+                                <h3><a href="#">Featured Event 4</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                         </ul>
