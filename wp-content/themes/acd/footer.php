@@ -50,6 +50,9 @@
                             <li class="icon fa-envelope">
                                 <a href="mailto:acdsupport@acd.org.au" class="">acdsupport@acd.org.au</a>
                             </li>
+                            <li class="icon fa-facebook">
+                                <a href="https://www.facebook.com/acdvic" class="">ACDvic</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="6u 12u(mobile)">
