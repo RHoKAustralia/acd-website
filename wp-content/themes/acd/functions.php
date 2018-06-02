@@ -93,7 +93,7 @@ function block_homepage_slider() {
     );
     wp_enqueue_style(
         'block-homepage-slider-fontawesome', // Handle.
-        plugins_url( 'font-awesome.css', __FILE__ ) // Font Awesome for social media icons.
+        plugins_url( bloginfo('template_url').'font-awesome.css', __FILE__ ) // Font Awesome for social media icons.
     );
     // Here we actually register the block with WP, again using our namespacing
     // We also specify the editor script to be used in the Gutenberg interface
