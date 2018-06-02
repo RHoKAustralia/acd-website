@@ -1796,13 +1796,13 @@ table.default thead {
 
     #header h1 a {
         text-decoration: none;
-        color: #FFFFFF;
+        color: #9D2CAF; /* #FFFFFF; */
         outline: 0;
     }
 
     #header span {
         font-weight: 200;
-        color: #fffced; /* 727272; */
+        color: #9D2CAF; /* 727272; */
     }
 
     /* Nav */
