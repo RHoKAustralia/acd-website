@@ -76,24 +76,24 @@ function block_homepage_slider() {
     // Scripts.
     wp_register_script(
         'block-homepage-slider-script', // Handle.
-        plugins_url( 'blocks/homepage-slider/block.js', __FILE__ ), // Block.js: We register the block here.
+        plugins_url( bloginfo('template_url').'/blocks/homepage-slider/block.js', __FILE__ ), // Block.js: We register the block here.
         array( 'wp-blocks', 'wp-element', 'wp-i18n' ) // Dependencies, defined above.
     );
 
     // Styles
     wp_register_style(
         'block-homepage-slider-editor-style', // Handle.
-        plugins_url( 'blocks/homepage-slider/editor.css', __FILE__ ), // Block editor CSS.
+        plugins_url( bloginfo('template_url').'/blocks/homepage-slider/editor.css', __FILE__ ), // Block editor CSS.
         array( 'wp-edit-blocks' ) // Dependency to include the CSS after it.
     );
     wp_register_style(
         'block-homepage-slider-frontend-style', // Handle.
-        plugins_url( 'blocks/homepage-slider/style.css', __FILE__ ), // Block editor CSS.
+        plugins_url( bloginfo('template_url').'/blocks/homepage-slider/style.css', __FILE__ ), // Block editor CSS.
         array( 'wp-edit-blocks' ) // Dependency to include the CSS after it.
     );
     wp_enqueue_style(
         'block-homepage-slider-fontawesome', // Handle.
-        plugins_url( 'font-awesome.css', __FILE__ ) // Font Awesome for social media icons.
+        plugins_url( bloginfo('template_url').'font-awesome.css', __FILE__ ) // Font Awesome for social media icons.
     );
     // Here we actually register the block with WP, again using our namespacing
     // We also specify the editor script to be used in the Gutenberg interface
