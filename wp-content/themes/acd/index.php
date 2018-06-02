@@ -120,53 +120,6 @@ License: pixelarity.com/license
 
         <!-- Featured -->
         <div id="featured" class="container">
-            <div class="row">
-                <div class="3u 12u(mobile)">
-                    <section>
-                        <h2>Sed nullam dolor lorem feugiat.</h2>
-                        <p class="subtitle">Lorem ipsum sed dolor et amet adipiscing nullam.</p>
-                        <ul class="style1">
-                            <li class="first"><a href="#">Phasellus dapibus nullam</a></li>
-                            <li><a href="#">Elementum eget vestibulum</a></li>
-                            <li><a href="#">Quis lacus praesent et aliquet</a></li>
-                            <li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
-                            <li><a href="#">Pellentesque nulla adipiscing</a></li>
-                            <li><a href="#">Feugiat consequat lorem</a></li>
-                        </ul>
-                    </section>
-                </div>
-                <div id="box1" class="3u 12u(mobile)">
-                    <section>
-                        <a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-                        <h3>Ipsum et consequat</h3>
-                        <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
-                        <footer>
-                            <a href="#" class="button icon fa-arrow-circle-right">Learn More</a>
-                        </footer>
-                    </section>
-                </div>
-                <div class="3u 12u(mobile)">
-                    <section>
-                        <a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-                        <h3>Elementum adipiscing</h3>
-                        <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
-                        <footer>
-                            <a href="#" class="button icon alt fa-arrow-circle-right">Learn More</a>
-                        </footer>
-                    </section>
-                </div>
-                <div class="3u 12u(mobile)">
-                    <section>
-                        <a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-                        <h3>Mauris lorem ipsum</h3>
-                        <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
-                        <footer>
-                            <a href="#" class="button icon alt2 fa-arrow-circle-right">Learn More</a>
-                        </footer>
-                    </section>
-                </div>
-
-            </div>
         </div>
 
     </div>
@@ -176,6 +129,7 @@ License: pixelarity.com/license
 
         <!-- Main  -->
         <div id="main" class="container">
+            
             <?php if ( have_posts() ) : ?>
             <?php while ( have_posts() ) : the_post(); ?>
             <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
