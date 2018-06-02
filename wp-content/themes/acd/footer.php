@@ -75,7 +75,7 @@
     <div class="row">
         <div class="2u 12u(mobile>">
             <span class="image fit">
-                <img src="images/flags.png">
+                <img src="<?php bloginfo('template_url'); ?>/images/flags.png">
             </span>
         </div>
         <div class="10u 12u(mobile)">
