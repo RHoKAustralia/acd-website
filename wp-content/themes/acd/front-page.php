@@ -47,7 +47,7 @@ License: pixelarity.com/license
                                 </div>
                                 <div class="slide">
                                     <div class="info">
-                                        <h2>Phasellus nec erat sit amet<br />nibh pellentesque</h2>
+                                        <h2>Pasellus nec erat sit amet<br />nibh pellentesque</h2>
                                         <span>Aliquam feugiat lorem ipsum dolor</span>
                                         <a class="link" href="#">Full story ...</a>
                                     </div>
