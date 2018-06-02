@@ -36,6 +36,22 @@ function acd_initialize_theme_options() {
         'acd_settings'                           // Page on which to add this section of options
     );
 
+    add_settings_field(
+        'acd_logo',                         // ID used to identify the field throughout the theme
+        'ACD Logo',                         // The label to the left of the option interface element
+        'acd_logo_callback',                // The name of the function responsible for rendering the option interface
+        'acd_settings',                 // The page on which this option will be displayed
+        'acd_settings_section',         // The name of the section to which this field belongs
+        array(                                // The array of arguments to pass to the callback. In this case, just a description.
+            'Set this value to the desired logo image'
+        )
+    );
+
+    register_setting(
+        'acd_settings',
+        'acd_logo'
+    );
+
 } // end sandbox_initialize_theme_options
 
 function acd_settings_page_content() {
@@ -58,6 +74,10 @@ function acd_general_options_callback() {
  * Field Callbacks
  * ------------------------------------------------------------------------ */
 
+function acd_logo_callback($args) {
+    echo '<input name="acd_logo" id="acd_logo" type="text" value="' . get_option( 'acd_logo' ) . '" />';
+
+}
 
 
 function custom_theme_setup() {
