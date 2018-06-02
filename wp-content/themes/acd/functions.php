@@ -68,4 +68,4 @@ add_action( 'after_setup_theme', 'custom_theme_setup' );
 
 //add_filter('xmlrpc_enabled', '__return_false'); // Possible attack vulnerability
 
-require_once(get_template_directory_uri().'block-init.php');
+require_once('block-init.php');
