@@ -31,7 +31,8 @@
                     if(count($footerposts) === 0) { echo "Nothing to see here"; }
 
                     foreach ( $footerposts as $post ) : setup_postdata( $post ); ?>
-                        <?php ( $i == 1 ? echo("<li class='first'>") : echo("<li>")); $i++ ?>
+
+                        <?php ( $i == 1 ? echo("<li class='first'>") : echo("<li>")); $i++; ?>
 
                         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 
