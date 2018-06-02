@@ -10,23 +10,19 @@
                     <li><a href="#">Quis lacus praesent et aliquet</a></li>
                     <li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
                     <li><a href="#">Pellentesque nulla adipiscing</a></li>
-                    <li><a href="#">Quis lacus praesent et aliquet</a></li>
-                    <li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
                 </ul>
             </section>
         </div>
         <div class="3u 12u(mobile)">
             <section>
-                <h2>Sed bibendum</h2>
+                <h2>&nbsp;</h2>
                 <ul class="style1">
-                    <li class="first"><a href="#">Sagittis nisi vel dolore dignissim</a></li>
-                    <li><a href="#">Pellentesque nulla adipiscing</a></li>
-                    <li><a href="#">Quis lacus praesent et aliquet</a></li>
-                    <li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
-                    <li><a href="#">Pellentesque nulla adipiscing</a></li>
-                    <li><a href="#">Quis lacus praesent et aliquet</a></li>
-                    <li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
-                    <li><a href="#">Pellentesque nulla adipiscing</a></li>
+                    <li class="first"><a href="#">Copyright</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Feedback and Complaints</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </section>
         </div>
