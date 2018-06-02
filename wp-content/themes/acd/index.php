@@ -147,8 +147,9 @@ License: pixelarity.com/license
                     </div><!--end navigation-->
                     <?php else : ?>
                     <?php endif; ?>
+                </div>
         </div>
-
+        </div>
     </div>
 
     <!-- Main Wrapper -->
