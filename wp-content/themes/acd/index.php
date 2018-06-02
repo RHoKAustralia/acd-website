@@ -120,16 +120,6 @@ License: pixelarity.com/license
 
         <!-- Featured -->
         <div id="featured" class="container">
-        </div>
-
-    </div>
-
-    <!-- Main Wrapper -->
-    <div id="main-wrapper">
-
-        <!-- Main  -->
-        <div id="main" class="container">
-            
             <?php if ( have_posts() ) : ?>
             <?php while ( have_posts() ) : the_post(); ?>
             <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -157,6 +147,16 @@ License: pixelarity.com/license
                     </div><!--end navigation-->
                     <?php else : ?>
                     <?php endif; ?>
+        </div>
+
+    </div>
+
+    <!-- Main Wrapper -->
+    <div id="main-wrapper">
+
+        <!-- Main  -->
+        <div id="main" class="container">
+
         </div>
 
     </div>
