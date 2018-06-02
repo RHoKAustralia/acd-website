@@ -76,19 +76,19 @@ function block_homepage_slider() {
     // Scripts.
     wp_register_script(
         'block-homepage-slider-script', // Handle.
-        plugins_url( 'blocks/homepage-slider/block.js', __FILE__ ), // Block.js: We register the block here.
+        plugins_url( bloginfo('template_url').'/blocks/homepage-slider/block.js', __FILE__ ), // Block.js: We register the block here.
         array( 'wp-blocks', 'wp-element', 'wp-i18n' ) // Dependencies, defined above.
     );
 
     // Styles
     wp_register_style(
         'block-homepage-slider-editor-style', // Handle.
-        plugins_url( 'blocks/homepage-slider/editor.css', __FILE__ ), // Block editor CSS.
+        plugins_url( bloginfo('template_url').'/blocks/homepage-slider/editor.css', __FILE__ ), // Block editor CSS.
         array( 'wp-edit-blocks' ) // Dependency to include the CSS after it.
     );
     wp_register_style(
         'block-homepage-slider-frontend-style', // Handle.
-        plugins_url( 'blocks/homepage-slider/style.css', __FILE__ ), // Block editor CSS.
+        plugins_url( bloginfo('template_url').'/blocks/homepage-slider/style.css', __FILE__ ), // Block editor CSS.
         array( 'wp-edit-blocks' ) // Dependency to include the CSS after it.
     );
     wp_enqueue_style(
