@@ -6,8 +6,9 @@
 
         <!-- Nav -->
         <nav id="nav">
+            <ul>
             <li class="current_page_item"><a href="/">Home</a></li>
-            
+
             <?php
             $args = array(
                     'parent' => 0,
@@ -56,6 +57,7 @@
                     echo $option;
                 }
                 ?>
+            </ul>
         </nav>
 
         <!-- Header -->
