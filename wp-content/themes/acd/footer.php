@@ -3,7 +3,7 @@
         <div class="3u 12u(mobile)">
             <section>
 
-                <h2>Site Map</h2>
+                <h2>About ACD</h2>
                 <ul class="style1">
                     <?php
                     $args = array( 'category_name' => 'Footer' );
