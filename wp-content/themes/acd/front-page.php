@@ -41,7 +41,7 @@ License: pixelarity.com/license
                                 <div class="slide">
                                     <div class="info">
                                         <h2>National Disability Insurance Scheme</h2>
-                                        <span>We host information workshops</span>
+                                        <span>Find out more about NDIS and how it affects you</span>
                                         <a class="link" href="#">Find out more ...</a>
                                     </div>
                                     <img src="<?php bloginfo('template_url'); ?>/images/slide01.jpg" alt="" />
