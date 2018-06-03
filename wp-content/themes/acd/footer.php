@@ -47,7 +47,7 @@
                                 echo "<li>";
                             }
 
-                            echo '<a href="' . the_permalink() . '">' . the_title() . '</a></li>';
+                            echo "<a href=\"" . the_permalink() . "\">" . the_title() . "</a></li>";
                         }
 
                         wp_reset_postdata();
