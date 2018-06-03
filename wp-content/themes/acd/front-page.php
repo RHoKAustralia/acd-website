@@ -52,7 +52,7 @@ License: pixelarity.com/license
                                         <span>Knowing your rights, getting advice<br />and other education information</span>
                                         <a class="link" href="#">More ...</a>
                                     </div>
-                                    <img src="<?php bloginfo('template_url'); ?>/images/slide02.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/images/banner2.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">
@@ -60,7 +60,7 @@ License: pixelarity.com/license
                                         <span>Access healthcare services and providers</span>
                                         <a class="link" href="#">More ...</a>
                                     </div>
-                                    <img src="<?php bloginfo('template_url'); ?>/images/slide03.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/images/banner3.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">
@@ -68,7 +68,7 @@ License: pixelarity.com/license
                                         <span>Find support workers</span>
                                         <a class="link" href="#">More ...</a>
                                     </div>
-                                    <img src="<?php bloginfo('template_url'); ?>/images/slide03.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/images/banner4.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
