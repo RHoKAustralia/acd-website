@@ -50,7 +50,7 @@ registerBlockType( 'cgb/block-acd-guten-blocks', {
 			<div className={ props.className }>
 				<p>— Hello from the backend.</p>
 				<p>
-					CGB BLOCK: <code>acd-guten-blocks</code> is a new Gutenberg block
+				 	<editable>CGB BLOCK: <code>acd-guten-blocks</code> is a new Gutenberg block</editable>
 				</p>
 				<p>
 					It was created via{ ' ' }
