@@ -42,31 +42,31 @@ License: pixelarity.com/license
                                     <div class="info">
                                         <h2>National Disability Insurance Scheme</h2>
                                         <span>Find out more about NDIS and how it affects you</span>
-                                        <a class="link" href="#">Find out more ...</a>
+                                        <a class="link" href="#">More ...</a>
                                     </div>
                                     <img src="<?php bloginfo('template_url'); ?>/images/slide01.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">
-                                        <h2>Pasellus nec erat sit amet<br />nibh pellentesque</h2>
-                                        <span>Aliquam feugiat lorem ipsum dolor</span>
-                                        <a class="link" href="#">Full story ...</a>
+                                        <h2>Your Child at School</h2>
+                                        <span>Knowing your rights, getting advice<br />and other education information</span>
+                                        <a class="link" href="#">More ...</a>
                                     </div>
                                     <img src="<?php bloginfo('template_url'); ?>/images/slide02.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">
-                                        <h2>Etiam dolore veroeros<br />lorem dolore nulla</h2>
-                                        <span>Nulla volutpat dolor sed amet</span>
-                                        <a class="link" href="#">Full story ...</a>
+                                        <h2>Health and Wellbeing</h2>
+                                        <span>Access healthcare services and providers</span>
+                                        <a class="link" href="#">More ...</a>
                                     </div>
                                     <img src="<?php bloginfo('template_url'); ?>/images/slide03.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">
-                                        <h2>Etiam dolore veroeros<br />lorem dolore nulla</h2>
-                                        <span>Nulla volutpat dolor sed amet</span>
-                                        <a class="link" href="#">Full story ...</a>
+                                        <h2>Disability Services</h2>
+                                        <span>Find support workers</span>
+                                        <a class="link" href="#">More ...</a>
                                     </div>
                                     <img src="<?php bloginfo('template_url'); ?>/images/slide03.jpg" alt="" />
                                 </div>
