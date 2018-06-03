@@ -88,7 +88,7 @@ License: pixelarity.com/license
                 <div class="4u 12u(mobile) card corners">
                     <section class="highlight">
                         <a href="#">
-                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic02.jpg" alt=""></span>
+                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/zero.jpg" alt=""></span>
                             <header>
                                 <h2>0 - 6 Years Old</h2>
                                 <p>Resources and downloads</p>
@@ -99,7 +99,7 @@ License: pixelarity.com/license
                 <div class="4u 12u(mobile) card corners">
                     <section class="highlight alt">
                         <a href="#">
-                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic03.jpg" alt=""></span>
+                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/seven.jpg" alt=""></span>
                             <header>
                                 <h2>7 - 12 Years Old</h2>
                                 <p>Resources and downloads</p>
@@ -110,7 +110,7 @@ License: pixelarity.com/license
                 <div class="4u 12u(mobile) card corners">
                     <section class="highlight alt2">
                         <a href="#">
-                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic04.jpg" alt=""></span>
+                            <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/thirteen.jpg" alt=""></span>
                             <header>
                                 <h2>13 - 18 Years Old</h2>
                                 <p>Resources and downloads</p>
