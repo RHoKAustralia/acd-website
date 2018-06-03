@@ -76,7 +76,7 @@ License: pixelarity.com/license
                 </div>
             </div>
             <div class="row">
-                <div class="4u 12u(mobile)">
+                <div class="4u 12u(mobile) card corners">
                     <section class="highlight">
                         <a href="#">
                             <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic02.jpg" alt=""></span>
@@ -87,7 +87,7 @@ License: pixelarity.com/license
                         </a>
                     </section>
                 </div>
-                <div class="4u 12u(mobile)">
+                <div class="4u 12u(mobile) card corners">
                     <section class="highlight alt">
                         <a href="#">
                             <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic03.jpg" alt=""></span>
@@ -98,7 +98,7 @@ License: pixelarity.com/license
                         </a>
                     </section>
                 </div>
-                <div class="4u 12u(mobile)">
+                <div class="4u 12u(mobile) card corners">
                     <section class="highlight alt2">
                         <a href="#">
                             <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic04.jpg" alt=""></span>
