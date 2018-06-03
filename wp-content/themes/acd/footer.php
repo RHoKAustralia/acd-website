@@ -21,7 +21,7 @@
                 <h2>Legal</h2>
                 <ul class="style1">
 
-                    <?php
+                <!--    < ?php
                     $args = array( 'category_name' => 'Footer' );
 
                     $footerposts = get_posts( $args );
@@ -32,11 +32,11 @@
 
                     foreach ( $footerposts as $post ) : setup_postdata( $post ); ?>
 
-                        <?php ( $i == 1 ? echo("<li class='first'>") : echo("<li>")); $i++; ?>
+                        < ?php ( $i == 1 ? echo("<li class='first'>") : echo("<li>")); $i++; ?>
 
-                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                        <a href="< ?php the_permalink(); ?>">< ?php the_title(); ?></a></li>
 
-                    <?php endforeach; wp_reset_postdata(); ?>
+                    < ?php endforeach; wp_reset_postdata(); ?> -->
 
                 </ul>
             </section>
