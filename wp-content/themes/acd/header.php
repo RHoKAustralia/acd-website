@@ -54,7 +54,7 @@
                     echo $option;
                 }
                 ?>
-        </nav>
+        </nav> 
 
         <!-- Header -->
         <div class="row">
