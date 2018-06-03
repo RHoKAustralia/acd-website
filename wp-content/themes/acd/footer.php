@@ -22,10 +22,10 @@
                 <ul class="style1">
 
                     <?php
-
                     $args = array( 'category_name' => 'Footer' );
 
                     $footerposts = get_posts( $args );
+
                     $i = 1;
 
                     if(count($footerposts) === 0) { echo "Nothing to see here"; }
