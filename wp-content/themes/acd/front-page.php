@@ -183,7 +183,7 @@ License: pixelarity.com/license
                         <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt=""></a>
                         <p>Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis congue faucibus erat, accumsan aliquet velit aliquet nec. Nullam mattis tellus in urna imperdiet mattis. Aliquam non eros ligula, vitae bibendum mauris. Nam suscipit nisl non leo lobortis molestie. Quisque urna velit, vestibugravida varius ullamcorper in, fermentum ut purus. In hac habitasse platea dictumst. Integer quis justo in dui sollicitudin elementum. Sed ac elit erat. Vivamus pellentesque libero purus, at posuere magna. Etiam at lacus molestie risus volutpat laoreet veroeros lorem ipsum.</p>
                         <footer>
-                            <a href="#" class="button icon fa-arrow-circle-right">Explore Events/a>
+                            <a href="#" class="button icon fa-arrow-circle-right">Explore Events</a>
                         </footer>
                     </article>
                 </div>
