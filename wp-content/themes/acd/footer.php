@@ -30,11 +30,7 @@
 
                         if(count($posts) === 0)
                         {
-                            echo "<li>Nothing to see here</li>";
-                        }
-                        else
-                        {
-                            echo "<li>Testing</li>";
+                            echo "<li>No links available</li>";
                         }
 
                         foreach ( $posts as $post ) {
