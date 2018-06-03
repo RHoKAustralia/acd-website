@@ -35,7 +35,7 @@ License: pixelarity.com/license
                 <div class="12u">
 
                     <!-- Slider -->
-                    <div id="slider">
+                    <div id="slider corners">
                         <div class="viewer">
                             <div class="reel">
                                 <div class="slide">
