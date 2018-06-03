@@ -4,15 +4,6 @@
 
     <div class="container">
 
-        <!-- Header -->
-        <div class="row">
-            <div class="3u">&nbsp;</div>
-            <div class="6u">
-                <span class="image fit"><img src="<?php echo get_option('acd_logo'); ?>" href="index.php"></span>
-            </div>
-            <div class="3u">&nbsp;</div>
-        </div>
-
         <!-- Nav -->
         <nav id="nav">
             <?php
@@ -66,6 +57,15 @@
         </nav>
 
         <!-- Header -->
+        <div class="row">
+            <div class="3u">&nbsp;</div>
+            <div class="6u">
+                <span class="image fit"><img src="<?php echo get_option('acd_logo'); ?>" href="index.php"></span>
+            </div>
+            <div class="3u">&nbsp;</div>
+        </div>
+
+        <!-- Header -->
        <!-- <header id="header"> -->
             <!--<h1><a href="index.php">A<span>ssociation for</span> C<span>hildren with a</span> D<span>isability</span></a></h1>-->
         <!-- </header> -->
@@ -79,7 +79,7 @@
     <!--<div id="banner" class="container">
         <div class="row">
             <div class="6u">
-                <span class="image fit"><img src="<?php echo get_option('acd_logo'); ?>" href="index.php"></span>
+                <span class="image fit"><img src="< ?php echo get_option('acd_logo'); ?>" href="index.php"></span>
             </div>
         </div>
     </div>
