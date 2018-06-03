@@ -40,9 +40,9 @@ License: pixelarity.com/license
                             <div class="reel">
                                 <div class="slide">
                                     <div class="info">
-                                        <h2>Dignissim feugiat lorem<br />ipsum nulla veroeros</h2>
-                                        <span>Integer gravida nibh quis urna</span>
-                                        <a class="link" href="#">Full story ...</a>
+                                        <h2>National Disability Insurance Scheme</h2>
+                                        <span>We host information workshops</span>
+                                        <a class="link" href="#">Find out more ...</a>
                                     </div>
                                     <img src="<?php bloginfo('template_url'); ?>/images/slide01.jpg" alt="" />
                                 </div>
@@ -53,6 +53,14 @@ License: pixelarity.com/license
                                         <a class="link" href="#">Full story ...</a>
                                     </div>
                                     <img src="<?php bloginfo('template_url'); ?>/images/slide02.jpg" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <div class="info">
+                                        <h2>Etiam dolore veroeros<br />lorem dolore nulla</h2>
+                                        <span>Nulla volutpat dolor sed amet</span>
+                                        <a class="link" href="#">Full story ...</a>
+                                    </div>
+                                    <img src="<?php bloginfo('template_url'); ?>/images/slide03.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">
