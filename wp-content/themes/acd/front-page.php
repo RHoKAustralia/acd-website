@@ -183,7 +183,7 @@ License: pixelarity.com/license
                         <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt=""></a>
                         <p>Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis congue faucibus erat, accumsan aliquet velit aliquet nec. Nullam mattis tellus in urna imperdiet mattis. Aliquam non eros ligula, vitae bibendum mauris. Nam suscipit nisl non leo lobortis molestie. Quisque urna velit, vestibugravida varius ullamcorper in, fermentum ut purus. In hac habitasse platea dictumst. Integer quis justo in dui sollicitudin elementum. Sed ac elit erat. Vivamus pellentesque libero purus, at posuere magna. Etiam at lacus molestie risus volutpat laoreet veroeros lorem ipsum.</p>
                         <footer>
-                            <a href="#" class="button icon fa-arrow-circle-right">Eventbrite Link</a>
+                            <a href="#" class="button icon fa-arrow-circle-right">Explore Events/a>
                         </footer>
                     </article>
                 </div>
@@ -194,12 +194,12 @@ License: pixelarity.com/license
                         <ul class="style2">
                             <li class="first">
                                 <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt=""></a>
-                                <h3><a href="#">Featured Event 1</a></h3>
+                                <h3><a href="#">Intro to NDIS</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                             <li>
                                 <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt=""></a>
-                                <h3><a href="#">Featured Event 2</a></h3>
+                                <h3><a href="#">Melbourne Zoo Trip</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                         </ul>
@@ -210,12 +210,12 @@ License: pixelarity.com/license
                         <ul class="style2">
                             <li class="first">
                                 <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic11.jpg" alt=""></a>
-                                <h3><a href="#">Featured Event 3</a></h3>
+                                <h3><a href="#">Advocacy Workshop</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                             <li>
                                 <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic12.jpg" alt=""></a>
-                                <h3><a href="#">Featured Event 4</a></h3>
+                                <h3><a href="#">Professional Development</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                         </ul>
