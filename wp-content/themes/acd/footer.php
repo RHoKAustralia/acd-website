@@ -21,29 +21,38 @@
                 <h2>Legal</h2>
                 <ul class="style1">
 
-                <?php
-                    $args = array( 'category_name' => 'Legal' );
+                    <?php
+                        $args = array( 'category_name' => 'Legal' );
 
-                    $posts = get_posts( $args );
+                        $posts = get_posts( $args );
 
-                    $i = 1;
+                        $i = 1;
 
-                    if(count($posts) === 0)
-                    {
-                        echo "<li>Nothing to see here</li>";
-                    }
-                    else
+                        if(count($posts) === 0)
+                        {
+                            echo "<li>Nothing to see here</li>";
+                        }
+                        else
                         {
                             echo "<li>Testing</li>";
                         }
 
-                    /*foreach ( $posts as $post ) : setup_postdata( $post ); ?>
+                        foreach ( $posts as $post ) {
+                            setup_postdata($post);
 
-                        <?php ( $i == 1 ? echo("<li class='first'>") : echo("<li>")); $i++; ?>
-                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                        </li>
+                            if ($i == 1) {
+                                echo "<li class='first'>";
+                                $i++;
+                            } else {
+                                echo "<li>";
+                            }
 
-                    <?php endforeach; wp_reset_postdata(); ?> */
+                            echo '<a href="' . the_permalink() . '">' . the_title() . '</a></li>';
+                        }
+
+                        wp_reset_postdata();
+
+                        ?>
 
                 </ul>
             </section>
