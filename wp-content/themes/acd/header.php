@@ -35,7 +35,7 @@
                 if(count($children) > 0)
                 {
                     //$option = "<li><a href='". get_page_link($page->ID) . "' class='dropdown'>$page->post_title</a>";
-                    $option = "<li><a href='#' class='dropdown'>$page->post_title</a>";
+                    $option = "<li><a href='#'>$page->post_title</a>";
                     $option .= "<ul>";
 
                     foreach($children as $child)
