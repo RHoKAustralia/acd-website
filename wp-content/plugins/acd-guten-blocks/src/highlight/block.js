@@ -2,17 +2,23 @@ import './style.scss';
 import './editor.scss';
 
 const { __ } = wp.i18n; // Import __() from wp.i18n
-const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.blocks
-const { RichText, BlockControls, AlignmentToolbar } = wp.editor;
+const { InnerBlocks, registerBlockType } = wp.blocks; // Import registerBlockType() from wp.blocks
+const { RichText, BlockControls, AlignmentToolbar, MediaUpload, InspectorControls } = wp.editor;
+const { Button, TextControl, PanelBody } = wp.components;
 
 registerBlockType( 'acd/highlight', {
 	// Block name. Block names must be string that contains a namespace prefix. Example: my-plugin/my-custom-block.
-	title: __( 'acd-highlight' ), // Block title.
+	title: __( 'highlight' ), // Block title.
 	description: __( 'A large image button with space underneath for a header, subheader and icon' ),
-	icon: 'shield', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
+	icon: 'id', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
 	category: 'common', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
 	attributes: {
-		content: {
+		header: {
+			type: 'array',
+			source: 'children',
+			selector: 'h2'
+		},
+		subtitle: {
 			type: 'array',
 			source: 'children',
 			selector: 'p'
@@ -20,6 +26,18 @@ registerBlockType( 'acd/highlight', {
 		alignment: {
 			type: 'string',
 			default: 'center'
+		},
+		mediaId: {
+			type: 'number',
+		},
+		mediaUrl: {
+			type: 'string',
+			source: 'attribute',
+			selector: 'img',
+			attribute: 'src',
+		},
+		linkUrl: {
+			type: 'url',
 		}
 	},
 	keywords: [
@@ -27,39 +45,71 @@ registerBlockType( 'acd/highlight', {
 	],
 
 	edit( { attributes, setAttributes, className, focus } ) {
-        function onChangeContent( newContent ) {
-            setAttributes( { content: newContent } );
-        }
+		function onChangeHeader( newHeader ) {
+            setAttributes( { header: newHeader } );
+		}
 
-		return (
-			<div>
-				{ !! focus && <BlockControls key='controls'><AlignmentToolbar value={ attributes.alignment } /></BlockControls> }
-				<section className={ `highlight ${ className }` }>
-					<span class="image fit"><img src="http://128.199.214.6/wp-content/themes/acd/images/pic02.jpg" alt="" /></span>
-					<header>
-						<h2>foo</h2>
-						<RichText
-							tagName="p"
-							onChange={ onChangeContent }
-							value={ attributes.content }
-						/>
-					</header>
-				</section>
-			</div>
-		);
+		function onChangeSubtitle( newSubtitle ) {
+            setAttributes( { subtitle: newSubtitle } );
+		}
+		
+		function onSelectImage( media ) {
+			return setAttributes( {
+				mediaUrl: media.url,
+				mediaId: media.id,
+			} );
+		};
+		
+
+		return [
+			<BlockControls key='block-controls'>
+				<AlignmentToolbar value={ attributes.alignment } />
+			</BlockControls>,
+			<InspectorControls key='inspector-controls'>
+				<TextControl type='url' label={ __('Link url') } value={ attributes.linkUrl } onChange={ ( newURL) => { setAttributes( { linkUrl: newURL } ) } } />
+			</InspectorControls>,
+			<section key="highlight" className={ `highlight ${ className }` }>
+				<MediaUpload
+					onSelect={ onSelectImage }
+					type="image"
+					value={ attributes.mediaId }
+					render={ ( { open } ) => (
+						<Button onClick={ open }>
+							<span class="image fit"><img src={ attributes.mediaUrl } alt="" />{ attributes.mediaId ? '' : '(Pick Image)' } </span>
+						</Button>
+					) }
+				/>
+				<header>
+					<RichText
+						tagName="h2"
+						placeholder="Your header text"
+						value={ attributes.header }
+						onChange={ onChangeHeader }
+					/>
+					<RichText
+						tagName="p"
+						placeholder="Your subtitle text"
+						value={ attributes.subtitle }
+						onChange={ onChangeSubtitle }
+					/>
+				</header>
+			</section>
+		];
 	},
 
 	save( { attributes, className } ) {
 		return (
-			<section className="highlight { props.className }">
-				<a href="#">
-					<span class="image fit"><img src="http://128.199.214.6/wp-content/themes/acd/images/pic02.jpg" alt="" /></span>
-					<header>
-						<h2>zzz</h2>
-						<RichText.Content tagName="p" className={ className } value={ attributes.content } />
-					</header>
-				</a>
-			</section>
+			<div className="4u 12u(mobile) card corners">
+				<section className="highlight">
+					<a href={ attributes.linkUrl }>
+						<span className="image fit"><img src={ attributes.mediaUrl } alt="" /></span>
+						<header>
+							<RichText.Content tagName="h2" className={ className } value={ attributes.header } />
+							<RichText.Content tagName="p" className={ className } value={ attributes.subtitle } />
+						</header>
+					</a>
+				</section>
+			</div>
 		);
 	},
 } );
