@@ -1522,7 +1522,7 @@ table.default thead {
 /* Highlight */
 
 .corners {
-    border-radius:4px;
+    border-radius: 0 50px;
 }
 
 .highlight {
