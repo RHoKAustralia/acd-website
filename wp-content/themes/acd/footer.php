@@ -5,12 +5,38 @@
 
                 <h2>Site Map</h2>
                 <ul class="style1">
-                    <li class="first"><a href="#">Quis lacus praesent et aliquet</a></li>
-                    <li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
-                    <li><a href="#">Pellentesque nulla adipiscing</a></li>
-                    <li><a href="#">Quis lacus praesent et aliquet</a></li>
-                    <li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
-                    <li><a href="#">Pellentesque nulla adipiscing</a></li>
+                    <?php
+                    $args = array( 'category_name' => 'Footer' );
+
+                    $posts = get_posts( $args );
+
+                    $i = 1;
+
+                    if(count($posts) === 0)
+                    {
+                        echo "<li>No links available</li>";
+                    }
+
+                    foreach ( $posts as $post ) {
+                        setup_postdata($post);
+
+                        if ($i == 1) {
+                            echo "<li class='first'>";
+                            $i++;
+                        } else {
+                            echo "<li>";
+                        }
+
+                        ?>
+
+                        <a href="<?php the_permalink(); ?>" title="Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+
+                        <?php
+                    }
+
+                    wp_reset_postdata();
+
+                    ?>
                 </ul>
             </section>
         </div>
