@@ -1521,8 +1521,16 @@ table.default thead {
 
 /* Highlight */
 
-.corners {
+#slider.corners {
     border-radius: 0 50px;
+}
+
+.card.corners img {
+    border-radius: 50px 0 0 0;
+}
+
+.card.corners header {
+    border-radius: 0 0 50px;
 }
 
 .highlight {
