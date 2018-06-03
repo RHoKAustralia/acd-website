@@ -43,7 +43,11 @@
                                 echo "<li>";
                             }
 
-                            echo "<a href=\"" . the_permalink() . "\">" . the_title() . "</a></li>";
+                            ?>
+
+                    <a href="<?php the_permalink(); ?>" title="Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+
+                            <?php
                         }
 
                         wp_reset_postdata();
