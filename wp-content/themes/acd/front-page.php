@@ -122,15 +122,15 @@ License: pixelarity.com/license
             <div class="row">
                 <div class="3u 12u(mobile)">
                     <section>
-                        <h2>Sed nullam dolor lorem feugiat.</h2>
-                        <p class="subtitle">Lorem ipsum sed dolor et amet adipiscing nullam.</p>
+                        <h2>Case Studies</h2>
+                        <p class="subtitle">Last year we helped 400 families</p>
                         <ul class="style1">
-                            <li class="first"><a href="#">Phasellus dapibus nullam</a></li>
-                            <li><a href="#">Elementum eget vestibulum</a></li>
-                            <li><a href="#">Quis lacus praesent et aliquet</a></li>
-                            <li><a href="#">Sagittis nisi vel dolore dignissim</a></li>
-                            <li><a href="#">Pellentesque nulla adipiscing</a></li>
-                            <li><a href="#">Feugiat consequat lorem</a></li>
+                            <li class="first"><a href="#">Smith Family</a></li>
+                            <li><a href="#">Nguyen Family</a></li>
+                            <li><a href="#">Al-Riadi Family</a></li>
+                            <li><a href="#">Tanaka Family</a></li>
+                            <li><a href="#">Broussard Family</a></li>
+                            <li><a href="#">Ivanov Family</a></li>
                         </ul>
                     </section>
                 </div>
