@@ -81,7 +81,7 @@ License: pixelarity.com/license
                         <a href="#">
                             <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic02.jpg" alt=""></span>
                             <header>
-                                <h2>0-6 Years Old</h2>
+                                <h2>0 - 6 Years Old</h2>
                                 <p>Resources and downloads</p>
                             </header>
                         </a>
@@ -92,8 +92,8 @@ License: pixelarity.com/license
                         <a href="#">
                             <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic03.jpg" alt=""></span>
                             <header>
-                                <h2>Magna sed lorem</h2>
-                                <p>Amet nulla consequat</p>
+                                <h2>7 - 12 Years Old</h2>
+                                <p>Resources and downloads</p>
                             </header>
                         </a>
                     </section>
@@ -103,8 +103,8 @@ License: pixelarity.com/license
                         <a href="#">
                             <span class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic04.jpg" alt=""></span>
                             <header>
-                                <h2>Magna sed lorem</h2>
-                                <p>Amet nulla consequat</p>
+                                <h2>13 - 18 Years Old</h2>
+                                <p>Resources and downloads</p>
                             </header>
                         </a>
                     </section>
