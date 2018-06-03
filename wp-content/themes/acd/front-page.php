@@ -44,7 +44,7 @@ License: pixelarity.com/license
                                         <span>Find out more about NDIS and how it affects you</span>
                                         <a class="link" href="#">More ...</a>
                                     </div>
-                                    <img src="<?php bloginfo('template_url'); ?>/images/slide01.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/images/banner1.jpg" alt="" />
                                 </div>
                                 <div class="slide">
                                     <div class="info">

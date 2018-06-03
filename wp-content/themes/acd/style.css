@@ -1989,7 +1989,7 @@ table.default thead {
         opacity: 0.75;
         line-height: 1.25em;
         font-size: 3em;
-        font-weight: 200;
+        font-weight: 400;
         color: #000000;
         margin: 0 0 0.5em 0;
     }
@@ -1998,8 +1998,8 @@ table.default thead {
         display: block;
         text-decoration: none;
         opacity: 0.75;
-        font-weight: 200;
-        color: #ABABAB;
+        font-weight: 300;
+        color: #434343;
         font-size: 2.00em;
     }
 
