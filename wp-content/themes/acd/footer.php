@@ -22,24 +22,28 @@
                 <ul class="style1">
 
                 <?php
-                    $args = array( 'category_name' => 'Footer' );
+                    $args = array( 'category_name' => 'Legal' );
 
-                    $footerposts = get_posts( $args );
+                    $posts = get_posts( $args );
 
                     $i = 1;
 
-                    if(count($footerposts) === 0)
+                    if(count($posts) === 0)
                     {
-                        echo "Nothing to see here";
+                        echo "<li>Nothing to see here</li>";
                     }
+                    else
+                        {
+                            echo "<li>Testing</li>";
+                        }
 
-                    foreach ( $footerposts as $post ) : setup_postdata( $post ); ?>
+                    /*foreach ( $posts as $post ) : setup_postdata( $post ); ?>
 
                         <?php ( $i == 1 ? echo("<li class='first'>") : echo("<li>")); $i++; ?>
+                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        </li>
 
-                        <a href="< ?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-
-                    <?php endforeach; wp_reset_postdata(); ?>
+                    <?php endforeach; wp_reset_postdata(); ?> */
 
                 </ul>
             </section>
