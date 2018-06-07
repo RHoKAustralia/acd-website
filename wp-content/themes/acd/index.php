@@ -123,7 +123,8 @@ License: pixelarity.com/license
         <!-- Main -->
         <div id="main" class="container">
             <div class="row">
-                <div class="12u">
+                <div class="1u"></div>
+                <div class="10u">
 
             <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) : the_post(); ?>
@@ -138,6 +139,7 @@ License: pixelarity.com/license
             <?php else : ?>
             <?php endif; ?>
                 </div>
+                <div class="1u"></div>
         </div>
         </div>
     </div>
