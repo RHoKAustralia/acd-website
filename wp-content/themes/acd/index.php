@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!--<!DOCTYPE HTML>
 <!--
 Theme Name: ACD
 Theme URI: https://www.acd.org.au/
