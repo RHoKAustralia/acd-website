@@ -1,5 +1,23 @@
 <?php
 
+add_theme_support( 'gutenberg', array(
+
+    // Theme supports wide images, galleries and videos.
+    'wide-images' => true,
+
+    // Make specific theme colors available in the editor.
+    'colors' => array(
+        '#9D2CAF', //Purple
+        '#009FE3', // Blue
+        '#FF5B00', // Orange
+        '#9AC72C', // Green
+        '#727272',
+        '#fffced',
+        '#e6e3d5'
+    ),
+
+) );
+
 /* ------------------------------------------------------------------------ *
  * Setting Registration
  * ------------------------------------------------------------------------ */
