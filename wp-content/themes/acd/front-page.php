@@ -118,7 +118,7 @@ License: pixelarity.com/license
                         </a>
                     </section>
                 </div>
-                <div class="6u 12u(mobile) card corners">
+                <div class="6u 12u(mobile) corners">
                     <section class="highlight">
                         <a href="#">
                             <header>
@@ -127,7 +127,7 @@ License: pixelarity.com/license
                         </a>
                     </section>
                 </div>
-                <div class="6u 12u(mobile) card corners">
+                <div class="6u 12u(mobile) corners">
                     <section class="highlight alt">
                         <a href="#">
                             <header>
