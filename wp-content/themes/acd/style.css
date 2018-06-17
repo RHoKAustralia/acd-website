@@ -1976,6 +1976,83 @@ table.default thead {
         left: 0;
     }
 
+    .slider header {
+        -moz-transition: background-color 0.25s ease-in-out;
+        -webkit-transition: background-color 0.25s ease-in-out;
+        -ms-transition: background-color 0.25s ease-in-out;
+        transition: background-color 0.25s ease-in-out;
+        background: #0087cd url("images/bg01.png") no-repeat right top; /* #0087cd */
+        background-size: 100% 100%;
+        padding: 2.25em 100px 2.25em 2em;
+        position: relative;
+    }
+
+    .slider header:before {
+        display: inline-block;
+        font-family: FontAwesome;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: '\f0a9';
+        position: absolute;
+        right: 24px;
+        top: 50%;
+        margin-top: -32px;
+        font-size: 64px;
+    }
+
+    .slider header h2 {
+        font-size: 2em;
+        letter-spacing: -1px;
+        margin: 0;
+        color: inherit;
+    }
+
+    .slider header p {
+        font-weight: 300;
+        letter-spacing: 0;
+        opacity: 0.65;
+        color: inherit;
+        margin: 0.25em 0 0 0;
+        font-size: 1.25em;
+        line-height: 1.5em;
+    }
+
+    .slider a:hover header {
+        background-color: #119ee7;
+    }
+
+    .slider a:active header {
+        background-color: #007cc2;
+    }
+
+    .slider.alt a header {
+        background-color: #d93d00;
+    }
+
+    .slider.alt a:hover header {
+        background-color: #f35111;
+    }
+
+    .slider.alt a:active header {
+        background-color: #d43800;
+    }
+
+    .slider.alt2 a header {
+        background-color: #414141;
+    }
+
+    .slider.alt2 a:hover header {
+        background-color: #575757;
+    }
+
+    .slider.alt2 a:active header {
+        background-color: #363636;
+    }
+
     #slider .info {
         position: absolute;
         z-index: 1;
