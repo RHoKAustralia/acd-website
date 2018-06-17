@@ -39,12 +39,10 @@ License: pixelarity.com/license
                         <div class="viewer">
                             <div class="reel">
                                 <div class="slide">
-                                    <a href="#">
                                         <header>
                                             <h2>National Disability Insurance Scheme</h2>
                                             <p>Find out more about NDIS and how it affects you</p>
                                         </header>
-                                    </a>
                                     <img src="<?php bloginfo('template_url'); ?>/images/banner1.jpg" alt="" />
                                 </div>
                                 <div class="slide">
