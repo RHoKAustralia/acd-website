@@ -118,7 +118,7 @@ License: pixelarity.com/license
                         </a>
                     </section>
                 </div>
-                <div class="6u 12u(mobile) corners">
+                <div class="6u 12u(mobile) btnCorners">
                     <section class="highlight">
                         <a href="#">
                             <header>
