@@ -153,40 +153,23 @@ License: pixelarity.com/license
                         <h2>Case Studies</h2>
                         <p class="subtitle">Last year we helped over</p>
                         <h2 id="families_counter" class="counter">0</h2>
-                        <p class="subtitle">Last year we helped over</p>
+                        <p class="subtitle">families</p>
                     </section>
                 </div>
-                <div id="box1" class="3u 12u(mobile)">
+                <div id="box1" class="6u 12u(mobile)">
                     <section>
                         <a href="#" class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt=""></a>
-                        <h3>Nguyen Family</h3>
-                        <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
-                        <footer>
-                            <a href="#" class="button icon fa-arrow-circle-right">Read More</a>
-                        </footer>
                     </section>
                 </div>
                 <div class="3u 12u(mobile)">
                     <section>
-                        <a href="#" class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt=""></a>
-                        <h3>Al-Riadi Family</h3>
+                        <h3>Case Study/h3>
                         <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
                         <footer>
                             <a href="#" class="button icon alt fa-arrow-circle-right">Read More</a>
                         </footer>
                     </section>
                 </div>
-                <div class="3u 12u(mobile)">
-                    <section>
-                        <a href="#" class="image fit"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt=""></a>
-                        <h3>Broussard Family</h3>
-                        <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
-                        <footer>
-                            <a href="#" class="button icon alt2 fa-arrow-circle-right">Read More</a>
-                        </footer>
-                    </section>
-                </div>
-
             </div>
         </div>
 
