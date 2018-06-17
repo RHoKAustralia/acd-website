@@ -2029,28 +2029,14 @@ table.default thead {
         background-color: #007cc2;
     }
 
-    .slider.alt a header {
-        background-color: #d93d00;
+    .slider header {
+        padding: 1.25em 80px 1em 1.25em;
     }
 
-    .slider.alt a:hover header {
-        background-color: #f35111;
-    }
-
-    .slider.alt a:active header {
-        background-color: #d43800;
-    }
-
-    .slider.alt2 a header {
-        background-color: #414141;
-    }
-
-    .slider.alt2 a:hover header {
-        background-color: #575757;
-    }
-
-    .slider.alt2 a:active header {
-        background-color: #363636;
+    .slider header:before {
+        right: 24px;
+        margin-top: -24px;
+        font-size: 48px;
     }
 
     #slider .info {
