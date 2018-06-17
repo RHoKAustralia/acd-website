@@ -152,7 +152,8 @@ License: pixelarity.com/license
                     <section>
                         <h2>Case Studies</h2>
                         <p class="subtitle">Last year we helped over</p>
-                        <p id="families_counter" class="counter">0</p><span id="families_desc" class="counter-description" style="display: none;">families</span>
+                        <h2 id="families_counter" class="counter">0</h2>
+                        <p class="subtitle">Last year we helped over</p>
                     </section>
                 </div>
                 <div id="box1" class="3u 12u(mobile)">
