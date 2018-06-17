@@ -16,6 +16,7 @@ License: pixelarity.com/license
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/odometer.css" />
     <?php wp_head(); ?>
 </head>
 <body class="homepage">
@@ -150,15 +151,9 @@ License: pixelarity.com/license
                 <div class="3u 12u(mobile)">
                     <section>
                         <h2>Case Studies</h2>
-                        <p class="subtitle">Last year we helped 400 families</p>
-                        <ul class="style1">
-                            <li class="first"><a href="#">Smith Family</a></li>
-                            <li><a href="#">Nguyen Family</a></li>
-                            <li><a href="#">Al-Riadi Family</a></li>
-                            <li><a href="#">Tanaka Family</a></li>
-                            <li><a href="#">Broussard Family</a></li>
-                            <li><a href="#">Ivanov Family</a></li>
-                        </ul>
+                        <p class="subtitle">Last year we helped</p>
+                        <p id="families_counter" class="counter">0</p>
+                        <p class="subtitle">families</p>
                     </section>
                 </div>
                 <div id="box1" class="3u 12u(mobile)">

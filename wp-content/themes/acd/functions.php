@@ -65,9 +65,25 @@ function acd_initialize_theme_options() {
         )
     );
 
+    add_settings_field(
+        'number_of_families',                      // ID used to identify the field throughout the theme
+        'Number of families helped',                           // The label to the left of the option interface element
+        'families_counter_callback',   // The name of the function responsible for rendering the option interface
+        'acd_settings',                          // The page on which this option will be displayed
+        'acd_settings_section',         // The name of the section to which this field belongs
+        array(                              // The array of arguments to pass to the callback. In this case, just a description.
+            'Set this value to the number of goods distributed to display on the page.'
+        )
+    );
+
     register_setting(
         'acd_settings',
         'acd_logo'
+    );
+
+    register_setting(
+        'acd_settings',
+        'number_of_families'
     );
 
 } // end sandbox_initialize_theme_options
@@ -87,6 +103,11 @@ function acd_settings_page_content() {
 function acd_general_options_callback() {
     echo '<p>Fill in configurable options for the ACD site</p>';
 } // end sandbox_general_options_callback
+
+function families_counter_callback($args) {
+    echo '<input name="number_of_families" id="number_of_families" type="text" value="' . get_option( 'number_of_families' ) . '" />';
+
+}
 
 /* ------------------------------------------------------------------------ *
  * Field Callbacks
