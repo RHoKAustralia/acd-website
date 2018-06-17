@@ -151,9 +151,8 @@ License: pixelarity.com/license
                 <div class="3u 12u(mobile)">
                     <section>
                         <h2>Case Studies</h2>
-                        <p class="subtitle">Last year we helped</p>
-                        <p id="families_counter" class="counter">0</p>
-                        <p class="subtitle">families</p>
+                        <p class="subtitle">Last year we helped over</p>
+                        <p id="families_counter" class="counter">0</p><span id="families_desc" class="counter-description" style="display: none;">families</span>
                     </section>
                 </div>
                 <div id="box1" class="3u 12u(mobile)">
@@ -267,6 +266,17 @@ License: pixelarity.com/license
 <script src="<?php bloginfo('template_url'); ?>/assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
-
+<script>
+    $(document).ready(function() {
+        var familiesCounter = new Odometer({
+            el: document.getElementById('families_counter'),
+            value: 0
+        });
+        setTimeout(function() {
+            familiesCounter.update(<?php echo get_option('number_of_families'); ?>);
+            $('#families_desc').show({duration: 400, easing: 'swing'});
+        }, 1000);
+    });
+</script>
 </body>
 </html>
