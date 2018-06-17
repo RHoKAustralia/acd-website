@@ -150,7 +150,7 @@ License: pixelarity.com/license
             <div class="row">
                 <div class="3u 12u(mobile)">
                     <section>
-                        <h2>Last year we helped over</h2>
+                        <h2>Last year we helped</h2>
                         <h2 id="families_counter" class="counter">0</h2>
                         <h2 class="subtitle">families</h2>
                     </section>
