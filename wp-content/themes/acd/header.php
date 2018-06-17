@@ -16,7 +16,7 @@
         <!-- Nav -->
         <nav id="nav">
             <ul>
-            <li class="current_page_item"><a href="/">Home</a></li>
+           <!-- <li class="current_page_item"><a href="/">Home</a></li> -->
 
             <?php
             $args = array(
