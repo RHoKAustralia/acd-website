@@ -1522,7 +1522,7 @@ table.default thead {
 
 /* Highlight */
 
-#slider.corners, .btnCorners {
+#slider.corners, .btnCorners header{
     border-radius: 0 50px;
 }
 
