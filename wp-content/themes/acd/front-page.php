@@ -119,7 +119,7 @@ License: pixelarity.com/license
                     </section>
                 </div>
                 <div class="6u 12u(mobile) btnCorners">
-                    <section class="highlight">
+                    <section class="highlight alt3">
                         <a href="#">
                             <header>
                                 <h2>Pep Talks</h2>
@@ -127,8 +127,8 @@ License: pixelarity.com/license
                         </a>
                     </section>
                 </div>
-                <div class="6u 12u(mobile) corners">
-                    <section class="highlight alt">
+                <div class="6u 12u(mobile) btnCorners">
+                    <section class="highlight alt4">
                         <a href="#">
                             <header>
                                 <h2>NDIS 4 Kids</h2>

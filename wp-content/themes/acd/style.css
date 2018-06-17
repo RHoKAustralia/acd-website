@@ -1614,8 +1614,8 @@ table.default thead {
 }
 
 .highlight.alt2 a header {
-    background-color: #414141;
-}
+     background-color: #414141;
+ }
 
 .highlight.alt2 a:hover header {
     background-color: #575757;
@@ -1623,6 +1623,30 @@ table.default thead {
 
 .highlight.alt2 a:active header {
     background-color: #363636;
+}
+
+.highlight.alt3 a header {
+    background-color: #9AC72C;
+}
+
+.highlight.alt3 a:hover header {
+    background-color: #87AE36;
+}
+
+.highlight.alt3 a:active header {
+    background-color: #798C3B;
+}
+
+.highlight.alt4 a header {
+    background-color: #9D2CAF;
+}
+
+.highlight.alt4 a:hover header {
+    background-color: #644280;
+}
+
+.highlight.alt4 a:active header {
+    background-color: #6D5184;
 }
 
 /* Icons */
