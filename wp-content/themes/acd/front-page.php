@@ -150,10 +150,9 @@ License: pixelarity.com/license
             <div class="row">
                 <div class="3u 12u(mobile)">
                     <section>
-                        <h2>Case Studies</h2>
-                        <p class="subtitle">Last year we helped over</p>
+                        <h2>Last year we helped over</h2>
                         <h2 id="families_counter" class="counter">0</h2>
-                        <p class="subtitle">families</p>
+                        <h2 class="subtitle">families</h2>
                     </section>
                 </div>
                 <div id="box1" class="6u 12u(mobile)">
@@ -163,7 +162,7 @@ License: pixelarity.com/license
                 </div>
                 <div class="3u 12u(mobile)">
                     <section>
-                        <h3>Case Study</h3>
+                        <h3>Lorem ipsum</h3>
                         <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
                         <footer>
                             <a href="#" class="button icon alt fa-arrow-circle-right">Read More</a>
