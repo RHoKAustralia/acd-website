@@ -264,6 +264,7 @@ License: pixelarity.com/license
 <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.slidertron.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/assets/js/skel.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/assets/js/skel-viewport.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/js/odometer.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
