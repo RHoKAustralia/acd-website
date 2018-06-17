@@ -118,6 +118,24 @@ License: pixelarity.com/license
                         </a>
                     </section>
                 </div>
+                <div class="6u 12u(mobile) card corners">
+                    <section class="highlight">
+                        <a href="#">
+                            <header>
+                                <h2>Pep Talks</h2>
+                            </header>
+                        </a>
+                    </section>
+                </div>
+                <div class="6u 12u(mobile) card corners">
+                    <section class="highlight alt">
+                        <a href="#">
+                            <header>
+                                <h2>NDIS 4 Kids</h2>
+                            </header>
+                        </a>
+                    </section>
+                </div>
             </div>
         </div>
 
