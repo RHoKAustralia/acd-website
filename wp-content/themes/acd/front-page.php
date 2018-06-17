@@ -163,7 +163,7 @@ License: pixelarity.com/license
                 </div>
                 <div class="3u 12u(mobile)">
                     <section>
-                        <h3>Case Study/h3>
+                        <h3>Case Study</h3>
                         <p>Phasellus dapibus nullam sit  elementum sem eget vestibulum et quis lacus. Praesent aliquet sagittis nisi vel dignissim.</p>
                         <footer>
                             <a href="#" class="button icon alt fa-arrow-circle-right">Read More</a>
