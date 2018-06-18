@@ -1,10 +1,10 @@
 .testimonial-slider {
     width: 100%;
-    height: 6em;
+    height: 8em;
 }
 
 .testimonial {
-    height: 5em;
+    height: 7em;
     width: 680px;
     margin: 40px auto 0;
     overflow: visible;
@@ -13,7 +13,7 @@
 
 .mask {
     overflow: hidden;
-    height: 5em;
+    height: 7em;
 }
 
 .testimonial ul {
@@ -24,7 +24,7 @@
 
 .testimonial li {
     width: 680px;
-    height: 5em;
+    height: 7em;
     position: absolute;
     top: -325px;
     list-style: none;
