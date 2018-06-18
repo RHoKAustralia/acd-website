@@ -249,7 +249,7 @@ License: pixelarity.com/license
                 <div class="mask">
                     <ul>
                         <li class="anim1">
-                            <div class="quote"><i class="fa fa-quote-left"></i>&nbsp; Hello, this is a quote from person 1.&nbsp; <i class="fa fa-quote-right"></i></div>
+                            <div class="quote"><i class="icon fa-quote-left"></i>&nbsp; Hello, this is a quote from person 1.&nbsp; <i class="icon fa-quote-right"></i></div>
                             <div class="source">- Person1</div>
                         </li>
                         <li class="anim2">
