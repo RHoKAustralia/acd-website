@@ -17,6 +17,7 @@ License: pixelarity.com/license
     <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/odometer.css" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/testimonial.css" />
     <style>
         .counter
         {
@@ -235,6 +236,45 @@ License: pixelarity.com/license
             </div>
         </div>
 
+    </div>
+
+    <!-- Featured Wrapper -->
+    <div id="featured-wrapper">
+        <div id="featured" class="container">
+            <div class="row">
+                <div class="12u 12u$(mobile)"><h2>Testimonials</h2></div>
+                <div class="12u 12u$(mobile)">
+                    <div class="testimonial-slider">
+            <div class="testimonial">
+                <div class="mask">
+                    <ul>
+                        <li class="anim1">
+                            <div class="quote">Hello, this is a quote from a person.</div>
+                            <div class="source">- Person</div>
+                        </li>
+                        <li class="anim2">
+                            <div class="quote">Hello, this is a quote from another person.</div>
+                            <div class="source">- Another person</div>
+                        </li>
+                        <li class="anim3">
+                            <div class="quote">Hello, this is a quote from an animal.</div>
+                            <div class="source">- Animal</div>
+                        </li>
+                        <li class="anim4">
+                            <div class="quote">Hello, this is a quote from a plant.</div>
+                            <div class="source">- Plant</div>
+                        </li>
+                        <li class="anim5">
+                            <div class="quote">How do ya like that.</div>
+                            <div class="source">- Cassidy</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer Wrapper -->
