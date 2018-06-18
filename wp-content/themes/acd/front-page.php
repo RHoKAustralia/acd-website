@@ -249,24 +249,24 @@ License: pixelarity.com/license
                 <div class="mask">
                     <ul>
                         <li class="anim1">
-                            <div class="quote">Hello, this is a quote from a person.</div>
-                            <div class="source">- Person</div>
+                            <div class="quote">Hello, this is a quote from person 1.</div>
+                            <div class="source">- Person1</div>
                         </li>
                         <li class="anim2">
                             <div class="quote">Hello, this is a quote from another person.</div>
                             <div class="source">- Another person</div>
                         </li>
                         <li class="anim3">
-                            <div class="quote">Hello, this is a quote from an animal.</div>
-                            <div class="source">- Animal</div>
+                            <div class="quote">Hello, this is a quote from person 2.</div>
+                            <div class="source">- Person2</div>
                         </li>
                         <li class="anim4">
-                            <div class="quote">Hello, this is a quote from a plant.</div>
-                            <div class="source">- Plant</div>
+                            <div class="quote">Hello, this is a quote from person 3.</div>
+                            <div class="source">- Person3</div>
                         </li>
                         <li class="anim5">
-                            <div class="quote">How do ya like that.</div>
-                            <div class="source">- Cassidy</div>
+                            <div class="quote">The end.</div>
+                            <div class="source">- Last Person</div>
                         </li>
                     </ul>
                 </div>
