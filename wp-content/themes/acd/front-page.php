@@ -243,7 +243,7 @@ License: pixelarity.com/license
         <div id="featured" class="container">
             <div class="row">
                 <div class="12u 12u$(mobile)"><h2>Testimonials</h2></div>
-                <div class="12u 12u$(mobile)">
+                <div class="12u 12u$(mobile)" style="padding-top:0px">
                     <div class="testimonial-slider">
             <div class="testimonial">
                 <div class="mask">
