@@ -31,8 +31,9 @@
 }
 
 .testimonial .quote {
-    font-size: 40px;
+    font-size: 1.25em;
     font-style: italic;
+    line-height: 1.05em;
 }
 
 .testimonial .source {
