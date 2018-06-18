@@ -158,7 +158,7 @@ License: pixelarity.com/license
                 <div class="3u 12u(mobile)">
                     <section>
                         <h2 style="text-align:center;">Last year we helped</h2>
-                        <h2 id="families_counter" class="counter" style="margin: auto;color:#9D2CAF;">0</h2>
+                        <h2 id="families_counter" class="counter" style="margin: 0; margin: auto !important;color:#9D2CAF;">0</h2>
                         <h2 style="text-align:center;">families</h2>
                     </section>
                 </div>
