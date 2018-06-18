@@ -250,7 +250,7 @@ License: pixelarity.com/license
                     <ul>
                         <li class="anim1">
                             <div class="quote"><i class="icon fa-quote-left" style="color:#9D2CAF;"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum justo sem, dignissim fermentum orci eget, lacinia imperdiet lectus. Phasellus maximus ipsum aliquet dui sodales elementum. &nbsp; <i class="icon fa-quote-right" style="color:#9D2CAF;"></i></div>
-                            <div class="source">- Person1</div>
+                            <div class="source">- Person</div>
                         </li>
                         <li class="anim2">
                             <div class="quote"><i class="icon fa-quote-left" style="color:#9D2CAF;"></i>&nbsp; Maecenas ac velit mi. In accumsan, lectus eget molestie tincidunt, lacus massa imperdiet tellus, a feugiat enim lectus eu odio. Praesent at purus sollicitudin, volutpat nisi vel, imperdiet felis. &nbsp; <i class="icon fa-quote-right" style="color:#9D2CAF;"></i></div>
@@ -258,15 +258,15 @@ License: pixelarity.com/license
                         </li>
                         <li class="anim3">
                             <div class="quote"><i class="icon fa-quote-left" style="color:#9D2CAF;"></i>&nbsp; Nunc fringilla lobortis feugiat. Nullam tincidunt nulla lectus, rhoncus gravida libero varius mollis. Donec facilisis aliquam erat, vitae commodo odio sodales et. Integer aliquet ultricies justo, id dictum ex pretium sit amet.&nbsp; <i class="icon fa-quote-right" style="color:#9D2CAF;"></i></div>
-                            <div class="source">- Person2</div>
+                            <div class="source">- Person</div>
                         </li>
                         <li class="anim1">
                             <div class="quote"><i class="icon fa-quote-left" style="color:#9D2CAF;"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum justo sem, dignissim fermentum orci eget, lacinia imperdiet lectus. Phasellus maximus ipsum aliquet dui sodales elementum. &nbsp; <i class="icon fa-quote-right" style="color:#9D2CAF;"></i></div>
-                            <div class="source">- Another person2</div>
+                            <div class="source">- Another person</div>
                         </li>
                         <li class="anim3">
                             <div class="quote"><i class="icon fa-quote-left" style="color:#9D2CAF;"></i>&nbsp; Nunc fringilla lobortis feugiat. Nullam tincidunt nulla lectus, rhoncus gravida libero varius mollis. Donec facilisis aliquam erat, vitae commodo odio sodales et. Integer aliquet ultricies justo, id dictum ex pretium sit amet.&nbsp; <i class="icon fa-quote-right" style="color:#9D2CAF;"></i></div>
-                            <div class="source">- Person3</div>
+                            <div class="source">- Person</div>
                         </li>
                     </ul>
                 </div>
