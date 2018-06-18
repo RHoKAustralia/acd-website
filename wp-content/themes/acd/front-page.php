@@ -260,13 +260,13 @@ License: pixelarity.com/license
                             <div class="quote"><i class="icon fa-quote-left" style="color:#9D2CAF;"></i>&nbsp; Nunc fringilla lobortis feugiat. Nullam tincidunt nulla lectus, rhoncus gravida libero varius mollis. Donec facilisis aliquam erat, vitae commodo odio sodales et. Integer aliquet ultricies justo, id dictum ex pretium sit amet.&nbsp; <i class="icon fa-quote-right" style="color:#9D2CAF;"></i></div>
                             <div class="source">- Person2</div>
                         </li>
-                        <li class="anim4">
-                            <div class="quote">Hello, this is a quote from person 3.</div>
-                            <div class="source">- Person3</div>
+                        <li class="anim1">
+                            <div class="quote"><i class="icon fa-quote-left" style="color:#9D2CAF;"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum justo sem, dignissim fermentum orci eget, lacinia imperdiet lectus. Phasellus maximus ipsum aliquet dui sodales elementum. &nbsp; <i class="icon fa-quote-right" style="color:#9D2CAF;"></i></div>
+                            <div class="source">- Another person2</div>
                         </li>
-                        <li class="anim5">
-                            <div class="quote">The end.</div>
-                            <div class="source">- Last Person</div>
+                        <li class="anim3">
+                            <div class="quote"><i class="icon fa-quote-left" style="color:#9D2CAF;"></i>&nbsp; Nunc fringilla lobortis feugiat. Nullam tincidunt nulla lectus, rhoncus gravida libero varius mollis. Donec facilisis aliquam erat, vitae commodo odio sodales et. Integer aliquet ultricies justo, id dictum ex pretium sit amet.&nbsp; <i class="icon fa-quote-right" style="color:#9D2CAF;"></i></div>
+                            <div class="source">- Person3</div>
                         </li>
                     </ul>
                 </div>
