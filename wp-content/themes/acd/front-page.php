@@ -17,6 +17,12 @@ License: pixelarity.com/license
     <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/odometer.css" />
+    <style>
+        .counter
+        {
+            align: center;
+        }
+    </style>
     <?php wp_head(); ?>
 </head>
 <body class="homepage">
@@ -151,7 +157,7 @@ License: pixelarity.com/license
                 <div class="3u 12u(mobile)">
                     <section>
                         <h2 style="text-align:center;">Last year we helped</h2>
-                        <h2 id="families_counter" class="counter" style="margin: 0 auto; width: 50%;">0</h2>
+                        <h2 id="families_counter" class="counter" style="margin: auto; width: 50%;">0</h2>
                         <h2 style="text-align:center;">families</h2>
                     </section>
                 </div>
