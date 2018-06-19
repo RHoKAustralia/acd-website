@@ -13,17 +13,13 @@
                 <div class="row uniform">
                     <div class="6u 12u$(mobile)"><a class="button icon fa-map-marker headerCorners" style="cursor: pointer;\width:100%;text-align:center;" href="#contactus">Contact Us</a></div>
                     <div class="6u 12u$(mobile)"><a class="button icon alt fa-usd headerCorners" style="cursor: pointer;width:100%;text-align:center;" href="#">Donate</a></div>
-                </div>
-                <div class="12u 12u$(mobile)">
-                    <input type="search" name="search" id="search" placeholder="Search">
-                </div>
-                <div class="12u 12u$(mobile)">
-                    <ul class="actions">
-                        <li>
-                            <a class="button primary icon fa-map-marker" style="cursor: pointer;" href="#contactus">Contact Us</a>
-                            <a class="button primary icon fa-donate" style="cursor: pointer;" href="#">Donate</a>
-                        </li>
-                    </ul>
+                    <div class="4u 12u$(mobile)">
+                        <input type="search" name="search" id="search" placeholder="Search" style="height: 1.5em;">
+                    </div>
+                    <div class="2u 12u$(mobile)"><a class="button primary icon fa-facebook" style="cursor: pointer;"></a></div>
+                    <div class="2u 12u$(mobile)"><a class="button primary icon fa-twitter" style="cursor: pointer;"></a></div>
+                    <div class="2u 12u$(mobile)"><a class="button primary icon fa-instagram" style="cursor: pointer;"></a></div>
+                    <div class="2u 12u$(mobile)"><a class="button primary icon fa-linkedin" style="cursor: pointer;"></a></div>
                 </div>
             </div>
         </div>
