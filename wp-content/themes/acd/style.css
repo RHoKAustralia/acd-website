@@ -2614,7 +2614,7 @@ table.default thead {
 
 }
 
-.social facebook{
+.social .facebook {
     display: inline-block;
     font-family: FontAwesome;
     text-decoration: none;
@@ -2624,10 +2624,7 @@ table.default thead {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: '\f0a9';
-    position: absolute;
-    right: 24px;
-    top: 50%;
-    margin-top: -32px;
     font-size: 64px;
     color: #000000;
+    text-align: center;
 }
