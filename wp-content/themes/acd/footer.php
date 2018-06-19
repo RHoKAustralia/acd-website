@@ -6,7 +6,7 @@
                 <h2>About ACD</h2>
                 <ul class="style1">
                     <?php
-                    $args = array( 'category_name' => 'Footer' );
+                    $args = array( 'category_name' => 'Footer', 'orderby'=> 'title', 'order' => 'ASC' );
 
                     $posts = get_posts( $args );
 
@@ -48,7 +48,7 @@
                 <ul class="style1">
 
                     <?php
-                        $args = array( 'category_name' => 'Legal' );
+                        $args = array( 'category_name' => 'Legal', 'orderby'=> 'title', 'order' => 'ASC' );
 
                         $posts = get_posts( $args );
 
