@@ -16,7 +16,9 @@
                     <div class="4u 12u$(mobile)">
                         <input type="search" name="search" id="search" placeholder="Search" style="height: 1.5em;">
                     </div>
-                    <div class="2u 12u$(mobile) social facebook" style="cursor: pointer;"></div>
+                    <div class="2u 12u$(mobile)">
+                        <div class="social"><a class="fa fa-twitter" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
+                    </div>
                     <div class="2u 12u$(mobile)"><a class="social fa-twitter" style="cursor: pointer;"></a></div>
                     <div class="2u 12u$(mobile)"><a class="button primary icon fa-instagram" style="cursor: pointer;"></a></div>
                     <div class="2u 12u$(mobile)"><a class="button primary icon fa-linkedin" style="cursor: pointer;"></a></div>
