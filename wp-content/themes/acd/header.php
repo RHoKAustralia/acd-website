@@ -14,7 +14,7 @@
                     <div class="6u 12u$(mobile)"><a class="button icon fa-map-marker headerCorners" style="cursor: pointer;\width:100%;text-align:center;" href="#contactus">Contact Us</a></div>
                     <div class="6u 12u$(mobile)"><a class="button icon alt fa-usd headerCorners" style="cursor: pointer;width:100%;text-align:center;" href="#">Donate</a></div>
                     <div class="8u 12u$(mobile)">
-                        <input type="search" name="search" id="search" placeholder="Search" style="height: 1.5em;">
+                        <input type="text" name="search" id="search" placeholder="Search" style="min-height:40px;min-width:98%;valign:middle;line-height:2em">
                     </div>
                     <div class="1u 12u$(mobile)">
                         <div class="social"><a class="fa fa-facebook" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
