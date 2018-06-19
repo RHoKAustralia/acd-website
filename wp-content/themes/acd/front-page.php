@@ -206,12 +206,12 @@ License: pixelarity.com/license
                     <section>
                         <ul class="style2">
                             <li class="first">
-                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt=""></a>
+                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" style="border-radius:100%"></a>
                                 <h3><a href="#">NDIS Workshops</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                             <li>
-                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt=""></a>
+                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" style="border-radius:100%"></a>
                                 <h3><a href="#">Healthy Mothers, Healthy Families</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
@@ -222,13 +222,13 @@ License: pixelarity.com/license
                     <section>
                         <ul class="style2">
                             <li class="first">
-                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic11.jpg" alt=""></a>
+                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic11.jpg" alt="" style="border-radius:100%"></a>
                                 <h3><a href="#">Professional Development</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                             <li>
-                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic12.jpg" alt=""></a>
-                                <h3><a href="#">Organise Your Own</a></h3>
+                                <a href="#" class="image left"><img src="<?php bloginfo('template_url'); ?>/images/pic12.jpg" alt="" style="border-radius:100%"></a>
+                                <h3><a href="#">Organise Your Own Event</a></h3>
                                 <p><a href="#">Phasellus sem tellus, consequat in euismod at, ultricies et eros. Duis amet urna imperdiet mattis. </a></p>
                             </li>
                         </ul>
