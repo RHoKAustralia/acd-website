@@ -2616,13 +2616,14 @@ table.default thead {
 
 .social [class*="fa fa-"] {
     background-color: #333;
-    border-radius: 30px;
+    border-radius: 60px;
     color: #fff;
     display: inline-block;
-    height: 30px;
-    line-height: 30px;
+    height: 60px;
+    line-height: 60px;
     margin: auto 3px;
-    width: 30px;
-    font-size: 15px;
+    width: 60px;
+    font-size: 30px;
     text-align: center;
+    text-decoration: none;
 }
