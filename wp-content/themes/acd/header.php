@@ -5,31 +5,37 @@
     <div class="container">
 
         <!-- Header -->
-        <div class="row">
+        <div class="row uniform">
             <div class="6u 12u$(mobile)">
                 <span class="image fit"><img src="<?php echo get_option('acd_logo'); ?>" href="index.php"></span>
             </div>
             <div class="6u 12u$(mobile)">
-               <ul class="actions">
-                   <li>
-                       <a class="button primary icon fa-map-marker" style="cursor: pointer;" href="#contactus">Contact Us</a>
-                       <a class="button primary icon fa-donate" style="cursor: pointer;" href="#">Donate</a>
-                   </li>
-               </ul>
-            </div>
-            <div class="12u 12u$(mobile)">
-                <form method="post" action="#" class="combined">
-                    <input type="search" name="search" id="search" placeholder="Search" class="invert">
-                    <input type="submit" class="special" value="Search">
-                </form>
-            </div>
-            <div class="12u 12u$(mobile)">
-                <ul class="actions">
-                    <li>
-                        <a class="button primary icon fa-map-marker" style="cursor: pointer;" href="#contactus">Contact Us</a>
-                        <a class="button primary icon fa-donate" style="cursor: pointer;" href="#">Donate</a>
-                    </li>
-                </ul>
+                <div class="row uniform">
+                    <ul class="actions fit 6u">
+                        <li>
+                            <a class="button primary icon fa-map-marker corners" style="cursor: pointer;" href="#contactus">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="actions fit 6u">
+                       <li>
+                           <a class="button primary icon fa-donate corners" style="cursor: pointer;" href="#">Donate</a>
+                       </li>
+                    </ul>
+                </div>
+                <div class="12u 12u$(mobile)">
+                    <form method="post" action="#" class="combined">
+                        <input type="search" name="search" id="search" placeholder="Search" class="invert">
+                        <input type="submit" class="special" value="Search">
+                    </form>
+                </div>
+                <div class="12u 12u$(mobile)">
+                    <ul class="actions">
+                        <li>
+                            <a class="button primary icon fa-map-marker" style="cursor: pointer;" href="#contactus">Contact Us</a>
+                            <a class="button primary icon fa-donate" style="cursor: pointer;" href="#">Donate</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 

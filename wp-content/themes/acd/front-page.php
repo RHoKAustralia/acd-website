@@ -15,7 +15,6 @@ License: pixelarity.com/license
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/refreshed.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/odometer.css" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/testimonial.css" />
