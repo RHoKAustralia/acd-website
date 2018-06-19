@@ -11,22 +11,11 @@
             </div>
             <div class="6u 12u$(mobile)">
                 <div class="row uniform">
-                    <ul class="actions fit 6u">
-                        <li>
-                            <a class="button 6u icon fa-map-marker headerCorners" style="cursor: pointer;" href="#contactus">Contact Us</a>
-                        </li>
-                    </ul>
-                    <ul class="actions fit 6u">
-                       <li>
-                           <a class="button 6u icon fa-usd headerCorners" style="cursor: pointer;" href="#">Donate</a>
-                       </li>
-                    </ul>
+                    <div class="6u 12u$(mobile)"><a class="button icon fa-map-marker headerCorners" style="cursor: pointer;" href="#contactus">Contact Us</a></div>
+                    <div class="6u 12u$(mobile)"><a class="button icon alt fa-usd headerCorners" style="cursor: pointer;" href="#">Donate</a></div>
                 </div>
                 <div class="12u 12u$(mobile)">
-                    <form method="post" action="#" class="combined">
-                        <input type="search" name="search" id="search" placeholder="Search" class="invert">
-                        <input type="submit" class="special" value="Search">
-                    </form>
+                    <input type="search" name="search" id="search" placeholder="Search">
                 </div>
                 <div class="12u 12u$(mobile)">
                     <ul class="actions">
