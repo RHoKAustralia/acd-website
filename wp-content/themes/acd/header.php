@@ -13,12 +13,12 @@
                 <div class="row uniform">
                     <ul class="actions fit 6u">
                         <li>
-                            <a class="button primary icon fa-map-marker headerCorners" style="cursor: pointer;" href="#contactus">Contact Us</a>
+                            <a class="button big icon fa-map-marker headerCorners" style="cursor: pointer;" href="#contactus">Contact Us</a>
                         </li>
                     </ul>
                     <ul class="actions fit 6u">
                        <li>
-                           <a class="button primary icon fa-donate headerCorners" style="cursor: pointer;" href="#">Donate</a>
+                           <a class="button big icon fa-usd headerCorners" style="cursor: pointer;" href="#">Donate</a>
                        </li>
                     </ul>
                 </div>
