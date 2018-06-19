@@ -49,7 +49,7 @@ License: pixelarity.com/license
                         <div class="viewer">
                             <div class="reel">
                                 <div class="slide">
-                                    <div class="info">
+                                    <div class="info shadow">
                                         <h2>National Disability Insurance Scheme</h2>
                                         <span>Find out more about NDIS and how it affects you</span>
                                         <a class="link" href="#">More ...</a>
@@ -57,7 +57,7 @@ License: pixelarity.com/license
                                     <img src="<?php bloginfo('template_url'); ?>/images/banner1.jpg" alt="" />
                                 </div>
                                 <div class="slide">
-                                    <div class="info">
+                                    <div class="info shadow">
                                         <h2>Your Child at School</h2>
                                         <span>Knowing your rights, getting advice<br />and other education information</span>
                                         <a class="link" href="#">More ...</a>
@@ -65,7 +65,7 @@ License: pixelarity.com/license
                                     <img src="<?php bloginfo('template_url'); ?>/images/banner2.jpg" alt="" />
                                 </div>
                                 <div class="slide">
-                                    <div class="info">
+                                    <div class="info shadow">
                                         <h2>Health and Wellbeing</h2>
                                         <span>Access healthcare services and providers</span>
                                         <a class="link" href="#">More ...</a>
@@ -73,7 +73,7 @@ License: pixelarity.com/license
                                     <img src="<?php bloginfo('template_url'); ?>/images/banner3.jpg" alt="" />
                                 </div>
                                 <div class="slide">
-                                    <div class="info">
+                                    <div class="info shadow">
                                         <h2>Disability Services</h2>
                                         <span>Find support workers</span>
                                         <a class="link" href="#">More ...</a>

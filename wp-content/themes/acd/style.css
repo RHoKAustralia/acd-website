@@ -2003,51 +2003,51 @@ table.default thead {
     /*padding: 1.25em 80px 1em 1.25em;*/
 
    #slider .info {
-       /* position: absolute;
+       position: absolute;
         z-index: 1;
         width: 100%;
         top: 7em;
         right: 4em;
         padding: 0px 0px 20px 30px;
-        text-align: right; */
-       -moz-transition: background-color 0.25s ease-in-out;
+        text-align: right;
+      /* -moz-transition: background-color 0.25s ease-in-out;
        -webkit-transition: background-color 0.25s ease-in-out;
        -ms-transition: background-color 0.25s ease-in-out;
        transition: background-color 0.25s ease-in-out;
        background: #0087cd url("images/bg01.png") no-repeat right top; /* #0087cd */
-       background-size: 100% 100%;
+       /* background-size: 100% 100%;
        padding: 2.25em 100px 2.25em 2em;
-       position: relative;
+       position: relative; */
     }
 
     #slider .info h2 {
-      /*  opacity: 0.75;
+        opacity: 0.75;
         line-height: 1.25em;
         font-size: 3em;
         font-weight: 400;
         color: #000000;
-        margin: 0 0 0.5em 0; */
-        font-size: 2em;
+        margin: 0 0 0.5em 0;
+        /* font-size: 2em;
         letter-spacing: -1px;
         margin: 0;
-        color: inherit;
+        color: inherit; */
 
     }
 
     #slider .info span {
-       /* display: block;
+       display: block;
         text-decoration: none;
         opacity: 0.75;
         font-weight: 300;
         color: #222222;
-        font-size: 2.00em; */
-        font-weight: 300;
+        font-size: 2.00em;
+     /*   font-weight: 300;
         letter-spacing: 0;
         opacity: 0.65;
         color: inherit;
         margin: 0.25em 0 0 0;
         font-size: 1.25em;
-        line-height: 1.5em;
+        line-height: 1.5em; */
     }
 
     #slider .indicator {
@@ -2626,4 +2626,9 @@ table.default thead {
     font-size: 25px;
     text-align: center;
     text-decoration: none;
+}
+
+.shadow
+{
+    text-shadow: 1px 1px 20px black;
 }
