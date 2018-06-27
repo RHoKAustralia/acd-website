@@ -92,14 +92,17 @@
                         <!--<div class="4u 12u(mobile)"><a href="#" class="button big alt2 icon fa-instagram">2.8k</a></div> -->
                     <div class="3u 12u$(mobile)">
                         <div class="social"><a class="fa fa-facebook" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
+                        <div>ACD (Vic)</div>
                     </div>
-                    <div class="3u 12u$(mobile)">
+
+                    <div class="1u 12u$(mobile)">
                         <div class="social"><a class="fa fa-twitter" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
+                        <div>@ACDinfo</div>
                     </div>
-                    <div class="3u 12u$(mobile)">
+                    <div class="1u 12u$(mobile)">
                         <div class="social"><a class="fa fa-instagram" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
                     </div>
-                    <div class="3u 12u$(mobile)">
+                    <div class="1u 12u$(mobile)">
                         <div class="social"><a class="fa fa-linkedin" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
                     </div>
                 </div>
