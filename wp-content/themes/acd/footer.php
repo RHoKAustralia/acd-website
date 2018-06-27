@@ -83,7 +83,7 @@
                 </ul>
             </section>
         </div>
-        <div class="6u 12u(mobile)">
+        <div class="3u 12u(mobile)">
             <section>
                 <h2>Follow Us</h2>
                <div class="row">
@@ -105,6 +105,8 @@
                     </div>
                 </div>
             </section>
+        </div>
+        <div class="3u 12u(mobile)">
             <section>
                 <h2>Contact Us</h2>
                 <div class="row">
