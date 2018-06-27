@@ -90,17 +90,17 @@
                     <!--<div class="6u 12u(mobile)"><a href="https://twitter.com/ACDinfo" target="_blank" class="button big icon fa-twitter">@ACDinfo</a></div>
                     <div class="6u 12u(mobile)"><a href="https://www.facebook.com/acdvic" target="_blank" class="button big alt icon fa-facebook">ACD (Vic)</a></div>
                         <!--<div class="4u 12u(mobile)"><a href="#" class="button big alt2 icon fa-instagram">2.8k</a></div> -->
-                    <div class="1u 12u$(mobile)">
+                    <div class="3u 12u$(mobile)">
                         <div class="social"><a class="fa fa-facebook" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
                     </div>
 
-                    <div class="1u 12u$(mobile)">
+                    <div class="3u 12u$(mobile)">
                         <div class="social"><a class="fa fa-twitter" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
                     </div>
-                    <div class="1u 12u$(mobile)">
+                    <div class="3u 12u$(mobile)">
                         <div class="social"><a class="fa fa-instagram" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
                     </div>
-                    <div class="1u 12u$(mobile)">
+                    <div class="3u 12u$(mobile)">
                         <div class="social"><a class="fa fa-linkedin" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
             <section>
                 <h2>Contact Us</h2>
                 <div class="row">
-                    <div class="6u 12u(mobile)">
+                    <div class="12u 12u(mobile)">
                         <ul class="style3">
                             <li class="icon fa-envelope">
                                 <a href="mailto:mail@acd.org.au" class="">mail@acd.org.au</a><br/>
@@ -118,7 +118,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="6u 12u(mobile)">
+                    <div class="12u 12u(mobile)">
                         <ul class="style3">
                             <li class="icon fa-phone">
                                 +61 3 9880 7000<br/>
