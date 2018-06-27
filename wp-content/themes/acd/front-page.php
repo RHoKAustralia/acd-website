@@ -279,7 +279,7 @@ License: pixelarity.com/license
     </div>
 
     <!-- Footer Wrapper -->
-    <div id="footer-wrapper">
+    <div id="footer-wrapper" style="padding: 2em 0 2em 0;">
 
         <!-- Footer -->
         <?php get_footer(); ?>
