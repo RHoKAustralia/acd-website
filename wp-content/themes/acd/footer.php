@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="2u 12u$(mobile)">
-                        <div class="social"><a class="fa fa-twitter" title="" target="_blank" href="#" style="cursor: pointer;">@ACDinfo</a></div>
+                        <div class="social"><a class="fa fa-twitter" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
                     </div>
                     <div class="2u 12u$(mobile)">
                         <div class="social"><a class="fa fa-instagram" title="" target="_blank" href="#" style="cursor: pointer;"></a></div>
