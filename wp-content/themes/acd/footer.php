@@ -1,4 +1,4 @@
-<footer id="footer" class="container" style="padding: 2em, 0, 2em, 0;">
+<footer id="footer" class="container" style="padding: 2em 0 2em 0;">
     <div class="row">
         <div class="3u 12u(mobile)">
             <section>
